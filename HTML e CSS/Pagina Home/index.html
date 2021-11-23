@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ticket Music</title>
+</head>
+<body>
+    <section class="sec">
+            <!-- Cabeçalho -->
+        <header>
+            <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shows</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </header>
+
+            <!-- Texto De A presentação -->
+        <div class="content">
+            <div class="textBx">
+                <h2>Venha Curtir Sua Vibe <br> <span>Ticket Music</span> </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Minima rem et repellendus eligendi repellat expedita nobis quis
+                aut nemo dicta explicabo, iste reiciendis, quo placeat recusandae voluptatum?
+                A, possimus facilis.</p>
+                <br>
+                <a href="#">Leia Mais...</a>
+            </div>
+        </div>
+
+        <!-- Efeito Pagina
+        <div class="custom-shape-divider-bottom-1637385488">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div> -->
+
+        <!-- Imagem da Nota -->
+        <img src="images/nota.png" class="nota">
+    </section>
+
+        <!-- Script dos botoes de menu quando site fica menor -->
+    <script type="text/javascript">
+        function menuToggle(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+
+<footer>
+       
+    <div class="container-footer-all">
+     
+         <div class="container-body">
+
+             <div class="colum1">
+                 <h1>Mas informacion de la compañia</h1>
+
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nihil adipisci accusamus voluptatum nobis aut laborum ut asperiores, 
+                minus reiciendis dignissimos! Expedita optio assumenda animi id vero totam, quod rerum porro.</p>
+
+             </div>
+
+             <div class="colum2">
+
+                 <h1>Redes Sociais</h1>
+
+                 <div class="row">
+                     <img src="images/facebook.png">
+                     <label>Nos Siga no Facebook</label>
+                 </div>
+                 <div class="row">
+                     <img src="images/twitter.png">
+                     <label>Nos Siga no Twitter</label>
+                 </div>
+                 <div class="row">
+                     <img src="images/insta.png">
+                     <label>Nos Siga no Instagram</label>
+                 </div>
+
+
+             </div>
+
+             <div class="colum3">
+
+                 <h1>Contatos</h1>
+
+                <!-- Imagem da Nota
+                 <div class="row2">
+                     <img src="images/smartphone.png">
+                     <label>+1-829-395-2064</label>
+                 </div>
+
+                 <div class="row2">
+                     <img src="icon/contact.png">
+                      <label>Cristiancedano1030@gmail.com</label>
+                 </div>
+                -->
+             </div>
+
+         </div>
+     
+     </div>
+     
+     <div class="container-footer">
+            <div class="footer">
+                 <div class="copyright">
+                     © 2021 Ticket Music - Todos os Direitos Reservados
+                 </div>
+
+                 <div class="information">
+                     <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                 </div>
+             </div>
+
+         </div>
+     
+ </footer>
+
+</body>
+</html>
