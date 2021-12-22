@@ -7,29 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="faleConosco.css">
+    <link rel="shortcut icon" href="images/solFavicon.png" type="image/x-icon">
     <title>Tickect Music - Fale conosco </title>
 </head>
 <body>
 
-    <!--CABEÇALHO DA PAGINA--> 
+    <section class="sec">
+        <!-- Cabeçalho -->
     <header>
-        <div class="logo-space">
-             <img src='https://www.imagemhost.com.br/images/2021/10/28/ticket-music-black.png' alt='Tickect Music'/>
-        </div>
-
-        <div class='search'>
-            <label>Encontre seu evento</label>
-            <input type='search' name='search' id='search'/>
-        </div>
-        
-        <div class='nav-space'>
-            <nav class="nav-bar">
-                <a href = 'home'> INÍCIO </a>
-                <a href = 'Login'> LOGIN </a>
-                <a href = 'Carrinho'> CARRINHO </a>
-            </nav> 
-        </div>
+        <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
+        <div class="toggleMenu" onclick="menuToggle();"></div>
+        <ul class="navigation">
+            <li><a href="../Pagina Home/index.html">Home</a></li>
+            <li><a href="#">Shows</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="../Pagina ajuda/faleConosco.html">Ajuda</a></li>
+            <li><a href="#">Contatos</a></li>
+        </ul>
     </header>
+
 
     <!--CORPO DA PAGINA-->
     <main>    
@@ -93,7 +90,12 @@
                 </div>
                 
                 <!--Botão -->
+
+                <div class="botao">
+
                 <input type="submit" name="submit" id="submit">
+
+                </div>
 
             </form>
         </div>   
@@ -106,18 +108,68 @@
         Ducimus, fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nobis dolore exercitationem vel alias eaque sint nemo delectus iure! Et modi 
         quod accusamus possimus error vel non ipsam obcaecati sequi!</h4>
     </main>
+
+</section>
+    
     <footer>
-        <!-- ICONES SOCIAL MEDIA -->
-     <div class="social-media">
-        <a href="http://www.twitter.com"><img src="https://icons.iconarchive.com/icons/bokehlicia/pacifica/32/twitter-icon.png" class="media-object  img-responsive img-thumbnail"></a>
-        <a href="https://www.instagram.com"><img src="https://www.imagemhost.com.br/images/2021/10/28/instagram.png"class="media-object img-responsive img-thumbnail"></a>
-        <a href="https://www.facebook.com"><img src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/32/social-facebook-icon.png"class="media-object img-responsive img-thumbnail"></a>  
-     </div>
-  
-    <div id='end-page'>
-        <h4>Ticket Music - Todos os Direitos reservados .</h4>
-    </div>
-    </footer> 
+       
+        <div class="container-footer-all">
+         
+             <div class="container-body">
+    
+                 <div class="colum1">
+                     <h1>Mais Informações</h1>
+    
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nihil adipisci accusamus voluptatum nobis aut laborum ut asperiores, 
+                    minus reiciendis dignissimos! Expedita optio assumenda animi id vero totam, quod rerum porro.</p>
+    
+                 </div>
+    
+                 <div class="colum2">
+    
+                     <h1>Redes Sociais</h1>
+    
+                     <div class="row">
+                         <img src="images/facebook.png">
+                         <label>Nos Siga no Facebook</label>
+                     </div>
+                     <div class="row">
+                         <img src="images/twitter.png">
+                         <label>Nos Siga no Twitter</label>
+                     </div>
+                     <div class="row">
+                         <img src="images/insta.png">
+                         <label>Nos Siga no Instagram</label>
+                     </div>
+    
+    
+                 </div>
+    
+                 <div class="colum3">
+    
+                     <h1>Contatos</h1>
+                 
+                 </div>
+    
+             </div>
+         
+         </div>
+         
+         <div class="container-footer">
+                <div class="footer">
+                     <div class="copyright">
+                         © 2021 Ticket Music - Todos os Direitos Reservados
+                     </div>
+    
+                     <div class="information">
+                         <a href="">Informações Da Compania</a> | <a href="">Privacidades e Politicas</a> | <a href="">Termos e Condições</a>
+                     </div>
+                 </div>
+    
+             </div>
+         
+     </footer>
     
 </body>
 </html>
