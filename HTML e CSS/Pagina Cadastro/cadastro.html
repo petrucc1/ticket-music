@@ -25,14 +25,39 @@
     </div>
 
     <div class="second-conteiner">
-        <h1>Criar conta</h1>
         <form action="">
-            <input type="text" id="name" name="name" placeholder="Nome completo" required>
-            <input type="email" id="email" name="email" placeholder="E-mail" required>
-            <input type="password" id="password" name="password" placeholder="Senha" required>
-            <input type="password" id="confirm-password" name="confirm-password" placeholder="Digite a senha novamente" required>
-            <input oninput="mascara(this)" id="cpf" name="cpf" type="text" placeholder="CPF ou CNPJ">
-            <input type="date" id="date" name="date" placeholder="Data de nascimento">
+            <fieldset>
+                <div>
+                    <h1 class="title">Criar conta</h1>
+                    <label for="">Nome completo</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div>
+                    <label for="">Digite a senha novamente</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+
+                <div>
+                    <label for="">CPF</label>
+                    <input oninput="mascara(this)" id="cpf" name="cpf" type="text" required>
+                </div>
+                
+                <div>
+                    <label for="">Data de nascimento</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+            </fieldset>
         </form>
     </div>
 </body>
