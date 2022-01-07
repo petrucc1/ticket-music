@@ -1,88 +1,98 @@
 /* Todos os componentes */
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    padding: 0px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-* input,select,textarea,button{
-    border-radius: 8px;
-    margin: 1px;
-    
-}
-/* links */
-a   {
-    text-decoration: none;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 25px;
-    align-items: center;
-}
-
-/* Imagens */
-img {
-    max-width: 100%;
-}
-
-.banner-event{
-    height: 400px;
+/*Container Principal*/
+.sec {
+    position: relative;
     width: 100%;
-    object-fit: cover;
-
-}
-
-/* Cabeçalho */
-header {
+    min-height: 100vh;
+    background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    background-color: black;
-    color: white;
-
+    padding: 100px;
 }
 
-header img{
-    width: 250px;
-}
-/*Logotipo*/
-
-.logo-space {
-    width: 40%; 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
+    z-index: 1;
 }
 
-.logo-space img{
-    width: 250px;
-    cursor: pointer;
-    justify-content: space-around;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-/* BUSCA */
-
-.search{
-    width: 45%; 
-    font-size: 25px;
+header .logo {
+    font-size: 2em;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-/* Barra de Navegação */
-
-.nav-space{
-    width: 20%; 
-    justify-content: space-around;
-    
+/*Sentido do cabeçalho*/
+header .navigation {
+    position: relative;
+    display: flex;
 }
 
-.nav-space a {
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: large;
-    color: white;
-    justify-content: space-around;
-    
+header .navigation li {
+    list-style: none;
+}
 
+header .navigation li a {
+    color: #fff;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.content {
+    position: relative;
+    max-width: 600px;
+    z-index: 1;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.content h2 span {
+    color: #fff;
+    font-size: 0.7em;
+}
+
+.content p {
+    color: #fff;
+    margin: 10px 0 20px;
+}
+
+.content a {
+    padding: 10px 30px;
+    background: #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    border-radius: 50px;
+}
+
+/*Ainda nao Definido*/
+header .logo img {
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
 }
 
 /*body e main */
@@ -90,10 +100,6 @@ header img{
 main{
     display: flex;
 }
-
-
-
-
 
 /*Final do body*/
 
@@ -106,30 +112,131 @@ body h4 {
 }
 /*footer*/
 
-/*footer*/
+/*Configurações Footer Contatos*/
 
-footer .social-media{
-    margin-top: 30px;
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
-#end-page{ 
-    padding: 10px;
-    background-color: black;
-    color:white;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
 }
 
 
-/* responsive*/
-
-@media(max-width:800){
-    header{
-        flex-direction: column;
-        justify-content: center;
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
     }
 }
