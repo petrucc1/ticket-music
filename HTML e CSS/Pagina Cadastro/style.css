@@ -19,7 +19,7 @@ body {
 }
 
 
-.main-evento { 
+/* .main-evento { 
     background: ;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body {
     height: 100vh;
     padding: 0%;
     object-fit: cover;
-}
+} */
 
 .main-info {
     font-family: 'Oxygen', sans-serif;
