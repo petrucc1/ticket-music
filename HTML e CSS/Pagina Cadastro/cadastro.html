@@ -11,89 +11,99 @@
     <title>Ticketmusic</title>
 </head>
 
-<body>
+<body class="main">
     <header>
         <nav>
-           <h1>Ticket Music </h1>
+           <h1>Ticket Music</h1>
         </nav>
     </header>
 
     <div class="first-conteiner">
         <p>Encontre o evento perfeito para a sua noite</p>
         <p>Faça uma compra rápida e fácil do seu ingresso</p>
+        <img id="first-div-image" src="https://blush.design/api/download?shareUri=4sKSi3XHJR35rlIS&c=Hair_0%7E870cf7-0.1%7E0519fc-0.2%7E870cf7-0.3%7E0519fc-0.4%7E870cf7_Skin_0%7Eaf5b27-0.1%7Effcba7-0.2%7Ee7915c-0.3%7Ee7915c-0.4%7Eaf5b27_Top_0%7Effa200-0.1%7Eff7475-0.2%7Eff0c0c-0.3%7Effa200-0.4%7Eff7475&w=800&h=800&fm=png" alt="Figura de pessoas conversando">
 
-        <img class="first-div-image" src="https://blush.design/api/download?shareUri=4sKSi3XHJR35rlIS&c=Hair_0%7E870cf7-0.1%7E0519fc-0.2%7E870cf7-0.3%7E0519fc-0.4%7E870cf7_Skin_0%7Eaf5b27-0.1%7Effcba7-0.2%7Ee7915c-0.3%7Ee7915c-0.4%7Eaf5b27_Top_0%7Effa200-0.1%7Eff7475-0.2%7Eff0c0c-0.3%7Effa200-0.4%7Eff7475&w=800&h=800&fm=png"
-        alt="Figura de pessoas conversando">
-    </div>
+            <div class="second-conteiner">
+                <form action="">
+                    <fieldset>
+                        <div>
+                            <h1 class="first-title">Criar conta</h1>
+                            <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Nome completo"
+                            required>
+                        </div>
+                        <hr>
 
-    <div class="second-conteiner">
-        <form action="">
-            <fieldset>
-                <div>
-                    <h1 class="title">Criar conta</h1>
-                    <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Nome completo"
-                    required>
-                </div>
+                        <div>
+                            <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="E-mail"
+                            required>
+                        </div>
+                        <hr>
 
-                <div>
-                    <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="E-mail"
-                    required>
-                </div>
+                        <div>
+                            <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Senha"
+                            required>
+                        </div>
+                        <hr>
 
-                <div>
-                    <input
-                    type="password"
-                    id="password"
-                    name="password"
-                    placeholder="Senha"
-                    required>
-                </div>
+                        <div>
+                            <input
+                            type="password"
+                            id="confirm-password"
+                            name="confirm-password"
+                            placeholder="Digite a senha novamente"
+                            required>
+                        </div>
+                        <hr>
 
-                <div>
-                    <input
-                    type="password"
-                    id="confirm-password"
-                    name="confirm-password"
-                    placeholder="Digite a senha novamente"
-                    required>
-                </div>
+                        <!-- CPF terá que ser validado em breve com JS e testes -->
+                        <div>
+                            <input
+                            oninput="mascara(this)"
+                            id="cpf"
+                            name="cpf"
+                            type="text"
+                            placeholder="CPF"
+                            required>
+                        </div>
+                        <hr>
 
-                <div>
-                    <input
-                    oninput="mascara(this)"
-                    id="cpf"
-                    name="cpf"
-                    type="text"
-                    placeholder="CPF"
-                    required>
-                </div>
-
-                <div>
-                    <input
-                    type="date"
-                    id="date"
-                    name="date"
-                    placeholder="Data de nascimento"
-                    required>
-                </div>
-            </fieldset>
-        </form>
-
-        <p class="terms">Clicando em continuar você concorda com nossos <a href="#"><strong>Termos de serviço</strong></a> e com nossas <a href=""><strong>Políticas de privacidade</strong></a></p>
-
-        <button></button>
+                        <div>
+                            <input
+                            type="date"
+                            id="date"
+                            name="date"
+                            placeholder="Data de nascimento"
+                            required>
+                        </div>
+                        <hr>
+                    </fieldset>
+                </form>
+        
+                <p class="terms">Clicando em continuar você concorda com nossos 
+                    <a href="#"><strong>Termos de serviço</strong></a> e com nossas 
+                    <a href=""><strong>Políticas de privacidade</strong></a></p>
+        
+                <button>Continuar</button>
+        
+                <h2 class="second-title">Ou conecte-se com</h2>
+                <!-- Redes sociais serão inseridas em breve na tecnologia JS -->
+        
+                <h3 class="second-title">Já tem uma conta? <a href="#">Faça login</a></h3>
+            </div>
     </div>
 </body>
-
-
 
 <footer>
     Todos os direitos reservados
