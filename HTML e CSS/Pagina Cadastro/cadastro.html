@@ -27,11 +27,12 @@
     <div class="second-conteiner">
         <h1>Criar conta</h1>
         <form action="">
-            <input type="text" name="name" placeholder="Nome Completo" required>
-            <input type="email" name="email" placeholder="E-mail" required>
-            <input type="password" name="password" placeholder="Senha" required>
-            <input type="password" name="confirm-password" placeholder="Digite a senha novamente" required>
-            <input oninput="mascara(this)" type="text" placeholder="CPF ou CNPJ">
+            <input type="text" id="name" name="name" placeholder="Nome completo" required>
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+            <input type="password" id="password" name="password" placeholder="Senha" required>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Digite a senha novamente" required>
+            <input oninput="mascara(this)" id="cpf" name="cpf" type="text" placeholder="CPF ou CNPJ">
+            <input type="date" id="date" name="date" placeholder="Data de nascimento">
         </form>
     </div>
 </body>
