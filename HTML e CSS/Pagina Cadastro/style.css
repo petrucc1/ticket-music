@@ -34,6 +34,19 @@ nav {
     border: none;
 }
 
+.terms {
+    color: #9B5666;
+}
+
+a {
+    text-decoration: none;
+    color: #130A3D;
+}
+
+a:hover {
+    color: #9B5666;
+}
+
 /* .main-evento { 
     background: ;
     background-size: 100%;
