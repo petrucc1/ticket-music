@@ -1,8 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
-  }
-nav{
+}
+
+nav {
     background-color: rgb(190, 187, 187);
     display: flex;
     flex-direction: row;
@@ -19,7 +20,6 @@ body {
 
 
 .main-evento { 
-    
     background: ;
     background-size: 100%;
     background-repeat: no-repeat;
