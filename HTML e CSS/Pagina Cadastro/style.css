@@ -110,38 +110,47 @@ nav {
 
 /* Estilização do body */
 .first-conteiner {
+    display: block;
     background-color: #130A3D;
     font-style: regular;
     font-size: 20px;
-    line-height: 100%;
+    border-radius: 30px;
     float: left;
+    width: 100%;
+    height: auto;
+}
+
+.first-paragraph {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 20px;
+    justify-content: center;
 }
 
 #first-div-image {
-    width: 40%;
-    height: 20%;
+    display: flex;
+    width: 50%;
+    height: 50%;
+    justify-content: flex-end;
 }
 
 .second-conteiner {
-    background-color: white;
-    width: 50%;
-    height: 20%;
+    background-color: #FFFFFF;
+    display: inline-block;
+    float: right;
     padding: 4%;
     border-radius: 30px;
-    float: right;
-    align-items: center;
+    width: 50.5%;
 }
 
 .first-title {
     color: #130A3D;
-    line-height: 33px;
+    font-size: 35px;
     font-weight: bolder;
 }
 
 fieldset {
     border: none;
-    margin: 5%;
-    right: 25%;
 }
 
 #name, #email, #password, #confirm-password, #cpf, #date {
@@ -168,10 +177,11 @@ a:hover {
 .second-title {
     color: #9B5666;
     font-weight: normal;
+    font-size: 18px;
 }
 
-.first-conteiner {
-    color: #FFFFFF;
+p {
+    font-size: 10px;
 }
 
 /* Estilização do botão */
@@ -303,6 +313,7 @@ footer {
 .information a {
     text-decoration: none;
     color: #C7C7C7;
+    cursor: pointer;
 }
 
 /*Footer*/
