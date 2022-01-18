@@ -1,4 +1,4 @@
 # Ticket Music
 
-## Sejam bem-vindos!
-###### Este projeto está sendo realizado para a certificação do centro educacional Digital House.
+## Choose your language below:
+### [Português](README-pt-BR.md) or [English](README-en-US.md)
