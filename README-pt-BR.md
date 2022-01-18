@@ -4,4 +4,4 @@ Este projeto está sendo realizado para a certificação do centro educacional [
 
 ## Sobre
 
-O Ticket Music é um site onde você pode realizar a compra de ingressos para shows, eventos, teatros e muito mais!
+Ticket Music é um site onde você pode realizar a compra de ingressos para shows, eventos, teatros e muito mais!
