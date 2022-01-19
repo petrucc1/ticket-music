@@ -1,5 +1,5 @@
 # Ticket Music
-Be welcome!!!
+Be welcome!
 Choose your language below:
 
 [Português](), [Español]() or [English]().
