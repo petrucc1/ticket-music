@@ -2,4 +2,4 @@
 Be welcome!
 Choose your language below:
 
-[Português](), [Español]() or [English]().
+[Português](README-pt-BR.md), [Español](README-es-MX.md) or [English](README-en-US.md).
