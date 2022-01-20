@@ -45,10 +45,5 @@ Este projeto foi criado para a certificação do Centro Educacional Digital Hous
 
 ### Página de ajuda
 
-#### Autores
-| [<img src="https://avatars.githubusercontent.com/u/83620260?v=4" width=115><br><sub>Sarah Petrucci</sub>](https://github.com/petrucc1)
-| [<img src="https://avatars.githubusercontent.com/u/60219108?v=4" width=115><br><sub>Fernando Henrique</sub>](https://github.com/TI-fernando)
-| [<img src="https://avatars.githubusercontent.com/u/88207708?v=4" width=115><br><sub>MMarcos Vinicius</sub>](https://github.com/mvrudies)
-| [<img src="https://avatars.githubusercontent.com/u/90662109?v=4" width=115><br><sub>Samuelso Barcaro</sub>](https://github.com/SamuelsoBarcaro)
-| [<img src="https://avatars.githubusercontent.com/u/89616216?v=4" width=115><br><sub>Otávio Augusto</sub>](https://github.com/taaavio)
-| [<img src="https://avatars.githubusercontent.com/u/89167172?v=4" width=115><br><sub>Edgar Silva</sub>](https://github.com/edgarsilva89)
+#### Contribuidores
+@all-contributors please add @petrucc1 for Contribuidores
