@@ -1,7 +1,7 @@
 # Ticket Music
 Aqui vamos explicar detalhadamente sobre o nosso projeto, você pode navegar pela seção abaixo ou poderá rolar a página para acessar as informações.
 
-## índice
+## Seção
 * [Sobre](#Sobre)
 * [Objetivo](#Objetivo)
 * [Como rodar o projeto](#Como-rodar-o-projeto)
@@ -15,8 +15,6 @@ Aqui vamos explicar detalhadamente sobre o nosso projeto, você pode navegar pel
 * [Dados pessoais do cliente](#Dados-pessoais-do-cliente)
 * [Página de ingressos comprados](#Página-de-ingressos-comprados)
 * [Página de ajuda](#Página-de-ajuda)
-
-
 
 ### Sobre
 Este projeto foi criado para a certificação do Centro Educacional Digital House. O nosso projeto foi pensado para ser um site de eventos, onde o cliente pode realizar a compra de ingressos para frequentar shows, teatros, museus e muito mais.
@@ -45,4 +43,5 @@ Este projeto foi criado para a certificação do Centro Educacional Digital Hous
 
 ### Página de ajuda
 
-#### Contribuidores
+### Contribuidores
+Utilizar bot all-contrubutors
