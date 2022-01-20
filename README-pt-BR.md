@@ -15,6 +15,7 @@ Aqui vamos explicar detalhadamente sobre o nosso projeto, você pode navegar pel
 * [Dados pessoais do cliente](#Dados-pessoais-do-cliente)
 * [Página de ingressos comprados](#Página-de-ingressos-comprados)
 * [Página de ajuda](#Página-de-ajuda)
+* [Contribuidores](#Contribuidores)
 
 
 
