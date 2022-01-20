@@ -3,7 +3,7 @@ Here we will explain in detail about our project, you can browse the section bel
 
 ## Section
 * [About](#About)
-* [Goal](#Goal)
+* [Objective](#Objective)
 * [How to run the project](#How-to-run-the-project)
 * [Used Technologies](#Used-Technologies)
 * [Home](#Home)
