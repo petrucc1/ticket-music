@@ -45,5 +45,5 @@ Este projeto foi criado para a certificação do Centro Educacional Digital Hous
 
 ### Página de ajuda
 
-#### Contribuidores
+### Contribuidores
 Utilizar bot all-contrubutors
