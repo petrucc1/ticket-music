@@ -1,5 +1,3 @@
-<!-- PAGINA DE EVENTOS  / SHOWS -->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,127 +5,165 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="evento.css">
-    <title>Tickect Music - Sepultura </title>
+    <link rel="shortcut icon" href="/frontEnd/images/solFavicon.png" type="image/x-icon">
+    <title>Sepultura - Sepulquarta</title>
 </head>
 <body>
-
-    <!--CABEÇALHO DA PAGINA--> 
+    <section class="sec">
+        <!-- Cabeçalho -->
     <header>
-        <div class="logo-space">
-             <img src='https://www.imagemhost.com.br/images/2021/10/28/ticket-music-black.png' alt='Tickect Music'/>
-        </div>
-
-        <div class='search'>
-            <label>Encontre seu evento</label>
-            <input type='search' name='search' id='search'/>
-        </div>
-        
-        <div class='nav-space'>
-            <nav class="nav-bar">
-                <a href = 'home'> INÍCIO </a>
-                <a href = 'Login'> LOGIN </a>
-                <a href = 'Carrinho'> CARRINHO </a>
-            </nav> 
-        </div>
+        <a href="#" class="logo"><img src="/frontEnd/images/logo.png" alt="logo"></a>
+        <div class="toggleMenu" onclick="menuToggle();"></div>
+        <ul class="navigation">
+            <li><a href="">Home</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Contatos</a></li>
+        </ul>
     </header>
+</section>
 
-    <!--CORPO DA PAGINA-->
-    <main>    
-        <!--BANNER BANDA -->
-        <section class="event-page">
-            
-            <img src="https://www.imagemhost.com.br/images/2021/11/08/aaaaa.jpg" class="banner-event" alt="Banner Sepultura" />
-                   
-        
-        <!--INFORMAÇÕES DO EVENTO -->    
-            <div class="info-conteiner">
-            <h1>Sepultura - SepulQuarta </h1><br/>
-                <p>21 de outubro de 2023, 20h </p>
-                <p>Estádio do Pacaembu - São Paulo, SP</p>
-            </div>    
-        
-        <hr>   
-        <!--DESCRIÇÃO DO EVENTO-->    
-            <div class="descricao-conteiner">
-                <h2>Descrição de evento </h2></br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit conubia tortor hendrerit, suspendisse nam ornare blandit.
-                Lorem rutrum dui parturient bibendum erat suspendisse natoque nullam ultrices, mollis phasellus scelerisque faucibus
-                torquent sociosqu ornare venenatis diam ex, curabitur eget condimentum felis ad senectus aptent leo. Auctor vivamus iaculis
-                pulvinar semper nulla eu posuere natoque metus, sem est ex vestibulum facilisi fringilla maecenas hendrerit rutrum, urna dui suscipit
-                mauris egestas non magnis neque.</p>
-            </div>
 
-        <!--ARÉA DE INGRESSOS-->
-        <div class="ingresso-conteiner">
+  <!--CORPO DA PAGINA-->
+  <main>    
+    <!--BANNER BANDA -->
+    <section class="event-page">
         
-            <!--LADO ESQUERDO-->    
-            <div id="esquerda">
-                <img src="https:////www.imagemhost.com.br/images/2021/10/20/opera_2o8F84ffgl.png" alt="palco">
+        <img src="https://www.imagemhost.com.br/images/2021/11/08/aaaaa.jpg" class="banner-event" alt="Banner Sepultura" />
+               
+    
+    <!--INFORMAÇÕES DO EVENTO -->    
+        <div class="info-conteiner">
+        <h1>Sepultura - SepulQuarta </h1><br/>
+            <p>21 de outubro de 2023, 20h </p>
+            <p>Estádio do Pacaembu - São Paulo, SP</p>
+        </div>    
+    
+    <hr>   
+    <!--DESCRIÇÃO DO EVENTO-->    
+        <div class="descricao-conteiner">
+            <h2>Descrição de evento </h2></br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit conubia tortor hendrerit, suspendisse nam ornare blandit.
+            Lorem rutrum dui parturient bibendum erat suspendisse natoque nullam ultrices, mollis phasellus scelerisque faucibus
+            torquent sociosqu ornare venenatis diam ex, curabitur eget condimentum felis ad senectus aptent leo. Auctor vivamus iaculis
+            pulvinar semper nulla eu posuere natoque metus, sem est ex vestibulum facilisi fringilla maecenas hendrerit rutrum, urna dui suscipit
+            mauris egestas non magnis neque.</p>
+        </div>
+
+    <!--ARÉA DE INGRESSOS-->
+    <div class="ingresso-conteiner">
+    
+        <!--LADO ESQUERDO-->    
+        <div id="esquerda">
+            <img src="https:////www.imagemhost.com.br/images/2021/10/20/opera_2o8F84ffgl.png" alt="palco">
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde reprehenderit expedita in corporis vel quam optio id maxime veritatis.
+                Aliquid dolorum vel deleniti cupiditate expedita dolor laudantium repellendus libero doloremque!</p>
+        </div>
+
+        <!--LADO DIREITO-->    
+        <div id='direita'>
+            <div class="Plateia">
+                <h1>Ingressos</h1>
                 <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde reprehenderit expedita in corporis vel quam optio id maxime veritatis.
-                    Aliquid dolorum vel deleniti cupiditate expedita dolor laudantium repellendus libero doloremque!</p>
-            </div>
-
-            <!--LADO DIREITO-->    
-            <div id='direita'>
-                <div class="Plateia">
-                    <h1>Ingressos</h1>
-                    <br>
-                    <div class="plateia1">
-                        <h2>Plateia 1 - Azul </h2>
-                        <h3>Pista Premium </h3>  
-                        <h2> R$ 500,00</h2>  
-                        <button type="submit"> COMPRAR </button> 
-                    </div>
-
-                    <br>
-                    <hr>
-                    <br>
-
-                    <div class="plateia2">
-                        <h2>Plateia 2 - Rosa </h2>
-                        <h3>Pista comum </h3>  
-                        <h2>R$ 300,00</h2>   
-                        <button type="submit"> COMPRAR </button>
-                    </div>
-
-                    <br>
-                    <hr>
-                    <br>
-
-                    <div class ='plateia-superior'>
-                        <h2>Plateia Superior - Azul </h2>
-                        <h3> Arquibancada </h3>  
-                        <h2> R$ 200,00</h2>   
-                        <button type="submit"> COMPRAR </button>
-                    </div>
-                    <br><br>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde reprehenderit expedita in corporis vel quam optio id maxime veritatis.
-                         Aliquid dolorum vel deleniti cupiditate expedita dolor laudantium repellendus libero doloremque!</p>  
+                <div class="plateia1">
+                    <h2>Plateia 1 - Azul </h2>
+                    <h3>Pista Premium </h3>  
+                    <h2> R$ 500,00</h2>  
+                    <button type="submit"> COMPRAR </button> 
                 </div>
+
+                <br>
+                <hr>
+                <br>
+
+                <div class="plateia2">
+                    <h2>Plateia 2 - Rosa </h2>
+                    <h3>Pista comum </h3>  
+                    <h2>R$ 300,00</h2>   
+                    <button type="submit"> COMPRAR </button>
+                </div>
+
+                <br>
+                <hr>
+                <br>
+
+                <div class ='plateia-superior'>
+                    <h2>Plateia Superior - Azul </h2>
+                    <h3> Arquibancada </h3>  
+                    <h2> R$ 200,00</h2>   
+                    <button type="submit"> COMPRAR </button>
+                </div>
+                <br><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde reprehenderit expedita in corporis vel quam optio id maxime veritatis.
+                     Aliquid dolorum vel deleniti cupiditate expedita dolor laudantium repellendus libero doloremque!</p>  
             </div>
         </div>
-  
+    </div>
 
-        <hr> 
-        <!--PAGINA FINAL DA PAGINA -->
-        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Veritatis facere amet quidem doloremque dignissimos natus libero numquam, aliquam, vitae commodi maxime eos perferendis voluptas doloribus nulla accusantium unde? 
-        Ducimus, fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nobis dolore exercitationem vel alias eaque sint nemo delectus iure! Et modi 
-        quod accusamus possimus error vel non ipsam obcaecati sequi!</h4>
-    </main>
-    <footer>
-        <!-- ICONES SOCIAL MEDIA -->
-        <div class="social-media">
-        <a href="http://www.twitter.com"><img src="https://icons.iconarchive.com/icons/bokehlicia/pacifica/32/twitter-icon.png" class="media-object  img-responsive img-thumbnail"></a>
-        <a href="https://www.instagram.com"><img src="https://www.imagemhost.com.br/images/2021/10/28/instagram.png"class="media-object img-responsive img-thumbnail"></a>
-        <a href="https://www.facebook.com"><img src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/32/social-facebook-icon.png"class="media-object img-responsive img-thumbnail"></a>  
-        </div>
 
-        <div id='end-page'>
-            <h4>Ticket Music - Todos os Direitos reservados .</h4>
-        </div>
-    </footer> 
+
+
+
+<footer>
+       
+    <div class="container-footer-all">
+     
+         <div class="container-body">
+
+             <div class="colum1">
+                 <h1>Mais Informações</h1>
+
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nihil adipisci accusamus voluptatum nobis aut laborum ut asperiores, 
+                minus reiciendis dignissimos! Expedita optio assumenda animi id vero totam, quod rerum porro.</p>
+
+             </div>
+
+             <div class="colum2">
+
+                 <h1>Redes Sociais</h1>
+
+                 <div class="row">
+                     <img src="/frontEnd/images/facebook.png">
+                     <label>Nos Siga no Facebook</label>
+                 </div>
+                 <div class="row">
+                     <img src="/frontEnd/images/twitter.png">
+                     <label>Nos Siga no Twitter</label>
+                 </div>
+                 <div class="row">
+                     <img src="/frontEnd/images/insta.png">
+                     <label>Nos Siga no Instagram</label>
+                 </div>
+
+
+             </div>
+
+             <div class="colum3">
+
+                 <h1>Contatos</h1>
+             
+             </div>
+
+         </div>
+     
+     </div>
+     
+     <div class="container-footer">
+            <div class="footer">
+                 <div class="copyright">
+                     © 2021 Ticket Music - Todos os Direitos Reservados
+                 </div>
+
+                 <div class="information">
+                     <a href="">Informações Da Compania</a> | <a href="">Privacidades e Politicas</a> | <a href="">Termos e Condições</a>
+                 </div>
+             </div>
+
+         </div>
+     
+ </footer>
     
 </body>
 </html>
