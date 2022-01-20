@@ -46,4 +46,3 @@ Este projeto foi criado para a certificação do Centro Educacional Digital Hous
 ### Página de ajuda
 
 #### Contribuidores
-@all-contributors please add @petrucc1 for README.md, doc, design and code
