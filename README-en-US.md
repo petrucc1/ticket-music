@@ -5,16 +5,17 @@ Here we will explain in detail about our project, you can browse the section bel
 * [About](#About)
 * [Objective](#Objective)
 * [How to run the project](#How-to-run-the-project)
-* [Used Technologies](#Used-Technologies)
-* [Home](#Home)
-* [Registration Page](#Registration-Page)
-* [Login Page](#Login-Page)
-* [Events Page](#Events-Page)
+* [Used technologies](#Used-technologies)
+* [Home page](#Home-page)
+* [Registration page](#Registration-page)
+* [Login page](#Login-page)
+* [Events page](#Events-page)
 * [Cart](#Cart)
-* [Customer Area](#Customer-Area)
+* [Customer area](#Customer-area)
 * [Customer personal data](#Customer-personal-data)
-* [Purchased-tickets page](#Purchased-tickets-page)
-* [Help Page](#Help-Page)
+* [Purchased tickets page](#Purchased-tickets-page)
+* [Help page](#Help-page)
+* [Contributors](#Contributors)
 
 ### About
 This project was created for the certification of the Digital House Educational Center. Our project was designed to be an event website, where the customer can purchase tickets to attend concerts, theaters, museums and much more.
@@ -23,7 +24,7 @@ This project was created for the certification of the Digital House Educational 
 
 ### How to run the project
 
-### Technologies used
+### Used technologies
 
 ### Home page
 
@@ -35,7 +36,7 @@ This project was created for the certification of the Digital House Educational 
 
 ### Cart
 
-### Customer's area
+### Customer area
 
 ### Customer personal data
 
