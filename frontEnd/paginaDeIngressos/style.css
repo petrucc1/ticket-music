@@ -1,0 +1,21 @@
+/* Fonte externa importada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Julius+Sans+One&display=swap');
+
+* {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.conteiner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#130A3D,#672550);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+h1 {
+    color: #130A3D;
+}
