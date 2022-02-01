@@ -1,0 +1,357 @@
+/* Fonte externa importada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif
+}
+
+/*Container Principal*/
+.sec {
+    position: fixed;
+    width: 300%;
+    min-height: 30vh;
+    background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+/*Sentido do cabeçalho*/
+header .navigation {
+    position: relative;
+    display: flex;
+}
+
+header .navigation li {
+    list-style: none;
+}
+
+header .navigation li a {
+    color: #fff;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.content {
+    position: relative;
+    max-width: 600px;
+    z-index: 1;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.content h2 span {
+    color: #fff;
+    font-size: 0.7em;
+}
+
+.content p {
+    color: #fff;
+    margin: 10px 0 20px;
+}
+
+.content a {
+    padding: 10px 30px;
+    background: #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    border-radius: 50px;
+}
+
+/*Logo*/
+header .logo img {
+    width: 160px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+main{
+    display: flex;
+}
+
+/* INFORMAÇÕES  */
+.info-conteiner{
+    padding: 50px;
+}
+.info-conteiner h1 {
+    font-size: 30px;
+
+}
+.info-conteiner p {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+}
+
+
+/*BANNER EVENTO */
+
+.show-page img {
+    position: 10px;
+    margin-top: 252px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+
+}
+
+/* DESCRIÇÕES */
+.descricao-conteiner {
+
+    margin-top: 0px;
+    align-items: center;
+    padding: 50px;
+    text-align: justify;
+    margin-left: 60px;
+}
+
+
+/*INGRESSO*/
+.descricao-conteiner {
+    padding: 15PX;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.descricao-conteiner p {
+    font-size: 13px;
+    align-items: center;
+    text-align: justify;
+   
+}
+
+/*INGRESSO*/
+.ingresso-conteiner {
+    display: flex;
+    flex-flow:row wrap;
+ }
+
+#esquerda {
+    margin-top: 0px;
+    width: 50%;
+    height: 100%;
+}
+
+
+#esquerda img{
+    height:50%1;
+    object-fit: cover; 
+    padding: auto;
+    width:50vh ;
+    max-width: 100%;
+    margin-left: 160px;
+    
+}
+
+/*DIREITA*/
+
+#direita {
+    width: 50%;
+}
+
+#direita h1{
+    font-size: 26px;
+    text-align: justify;
+    padding: 0px;
+}
+#direita h2{
+    font-size: 20px;
+    align-items: center;
+    text-align: justify;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+#direita h3{
+    font-size: 15px;
+    align-items: center;
+    text-align: justify;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+
+#direita p{
+    font-size: 12px;
+    align-items: center;
+    text-align: justify;
+    padding: 0px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+#direita button{
+    background:    #672550;
+    border:        1px solid #000000;
+    border-radius: 6px;
+    padding:       17px 31px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 16px/1 "Ubuntu", sans-serif;
+    text-align:    center;
+    text-shadow:   3px 3px #000000;
+}
+
+
+/*Final do body*/
+
+body h4 {
+    margin-top: 15px;
+    font-size: 13px;
+    align-items: center;
+    text-align: center;
+}
+
+/*Configurações Footer Contatos*/
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
