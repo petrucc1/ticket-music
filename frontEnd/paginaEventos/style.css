@@ -1,22 +1,23 @@
 /* Fonte externa importada do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Alice&family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif
 }
 
 /*Container Principal*/
 .sec {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
+    position: fixed;
+    width: 300%;
+    min-height: 30vh;
     background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px;
+    padding: 60px;
 }
 
 header {
@@ -29,14 +30,6 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 1;
-}
-
-header .logo {
-    font-size: 2em;
-    color: #fff;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-decoration: none;
 }
 
 /*Sentido do cabeçalho*/
@@ -54,6 +47,7 @@ header .navigation li a {
     margin-left: 40px;
     text-decoration: none;
     font-weight: bolder;
+    font-size: 18px;
 }
 
 .content {
@@ -87,13 +81,29 @@ header .navigation li a {
     border-radius: 50px;
 }
 
-/*Ainda nao Definido*/
+/*Logo*/
 header .logo img {
-    width: 120px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 10px;
+    width: 160px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+/*MAIN */
+
+main{
+    display: flex;
+}
+
+
+/*Final do body*/
+
+body h4 {
+    margin-top: 15px;
+    font-size: 13px;
+    align-items: center;
+    text-align: center;
 }
 
 /*Configurações Footer Contatos*/
