@@ -115,14 +115,16 @@ nav {
     font-style: regular;
     font-size: 20px;
     border-radius: 30px;
-    float: left;
     width: 100%;
     height: auto;
 }
 
 .first-paragraph {
-    display: flex;
-    color: #FFFFFF;
+    background: red;
+    position: absolute;
+    left: 57%;
+    top: 20%;
+    font-weight: bolder;
     font-size: 20px;
     justify-content: center;
 }
@@ -136,11 +138,10 @@ nav {
 
 .second-conteiner {
     background-color: #FFFFFF;
-    display: inline-block;
-    float: right;
-    padding: 4%;
-    border-radius: 30px;
-    width: 50.5%;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    width: 600px;
 }
 
 .first-title {
