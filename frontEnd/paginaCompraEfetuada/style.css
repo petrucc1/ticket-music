@@ -10,13 +10,13 @@
 /*Container Principal*/
 .sec {
     position: relative;
-    width: 100%;
-    min-height: 100vh;
+    width: 300%;
+    min-height: 15vh;
     background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px;
+    padding: 50px;
 }
 
 header {
@@ -96,8 +96,40 @@ header .logo img {
     margin: 10px;
 }
 
-.container 
-    /* background: linear-gradient(#130A3D,#672550); */
+.box {
+    background: #ccc;
+    padding: 200px 500px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.box p {
+    color: black;
+}
+
+.content {
+    position: relative;
+    max-width: 100%;
+    
+    color: black;
+    background: #fff;
+    
+    display: flex;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;       
+} 
+
+/*Imagem check*/
+.verificado {
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-radius: 50px;
+   
+}
     
 /*Configurações Footer Contatos*/
 
