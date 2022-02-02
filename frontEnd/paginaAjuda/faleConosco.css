@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* Fonte externa importada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Julius+Sans+One&display=swap');
 
 *{
     margin: 0;
@@ -19,7 +20,7 @@
 a   {
     text-decoration: none;
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     align-items: center;
     cursor: pointer;
 }
@@ -144,7 +145,7 @@ main{
 .start-help {
     align-items: center;
     text-align: center;
-    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -223,7 +224,7 @@ fieldset.grupo .campo{
 
 body h4 {
     margin-top: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     align-items: center;
     text-align: center;
 }
@@ -242,7 +243,7 @@ footer .social-media{
     padding: 10px;
     background-color: black;
     color:white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 

@@ -1,5 +1,8 @@
 /* Todos os componentes */
 
+/* Fonte externa importada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Julius+Sans+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -147,7 +150,7 @@ main{
 
 body h4 {
     margin-top: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 13px;
     align-items: center;
     text-align: center;
