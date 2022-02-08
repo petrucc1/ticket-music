@@ -1,0 +1,381 @@
+/* Fonte externa importada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Julius+Sans+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Container Principal*/
+.sec {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+header .logo {
+    font-size: 2em;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*Sentido do cabeçalho*/
+header .navigation {
+    position: relative;
+    display: flex;
+}
+
+header .navigation li {
+    list-style: none;
+}
+
+header .navigation li a {
+    color: #fff;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.content {
+    position: relative;
+    max-width: 600px;
+    z-index: 1;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.content h2 span {
+    color: #fff;
+    font-size: 0.7em;
+}
+
+.content p {
+    color: #fff;
+    margin: 10px 0 20px;
+}
+
+.content a {
+    padding: 10px 30px;
+    background: #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    border-radius: 50px;
+}
+
+/*Ainda nao Definido*/
+header .logo img {
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+.menu{
+    height: 80px;
+    background-color: rgb(196, 196, 196);
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content:space-around;
+    padding: 50px 25px;
+    height: 500px;
+}
+
+.resumoDaCompra{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(241, 238, 238);
+    margin-right: 25px;
+    padding: 20px;
+}
+
+.formaDePagamento{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 238, 238);
+    width: 50%;
+    padding: 20px;
+}
+.howPay{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.dataPay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color:rgb(192, 190, 190);
+}
+
+.formaDePagamento h4{
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    background-color: rgb(196, 196, 196);
+
+}
+
+form .infoCard{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+form .secureCode{
+    width: 90px;
+  }
+
+form .cpfCard{
+    width: 50%;;
+
+}
+
+form .inline{
+    display: flex;
+    align-self: center;
+    width:100%;
+    gap: 10px;
+}
+
+form .inline2{
+    display: flex;
+    align-self: center;
+    width:90%;
+    gap: 10px;
+}
+
+form input {
+    width: 100%; 
+    block-size: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: #ccc 1px solid;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+form input:focus {
+    background-color: #ccc;
+    border-radius: 50px;
+}
+
+form label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form #send {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;  
+    align-items:flex-end;
+    width: 50%;
+}
+
+form input[type=submit] {
+    width: 70%;
+    block-size: 40px;
+    background-color: rgb(208, 40, 40);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form select:hover {
+    background-color: #ccc;
+}
+
+.resumoDaCompra .descricaoValor{
+    display: flex;
+    color: hotpink;
+}
+
+#resumo{
+    width: 90%;
+    margin: auto;
+    
+}
+.totalLine{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.aceite {
+    text-align: center;
+}
+
+/*Configurações Footer Contatos*/
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
