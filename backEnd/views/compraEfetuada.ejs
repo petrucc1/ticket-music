@@ -1,107 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="stylesheets/compraEfetuada.css" />
-    <link
-      rel="shortcut icon"
-      href="/images/solFavicon.png"
-      type="image/x-icon"
-    />
-    <title>Cabeçalho</title>
-  </head>
-    <body>
-    <section class="sec">
-      <!-- Cabeçalho -->
-      <header>
-        <a href="#" class="logo"
-          ><img src="/images/logo.png" alt="logo"
-        /></a>
-        <div class="toggleMenu" onclick="menuToggle();"></div>
-        <ul class="navigation">
-          <li>
-            <a href="../paginaHome/index.html">Home</a></li>
-            <li><a href="../paginaShow/show.html">Shows</a></li>
-            <li><a href="../paginaEvento/index.html">Eventos</a></li>
-            <li><a href="../paginaCadastro/index.html">Cadastro</a></li>
-            <li><a href="../paginaCarrinho/carrinho.html">Carrinho</a></li>
-            <li><a href="../paginaAjuda/faleConosco.html">Ajuda</a></li>
-            <li><a href="../paginaLogin/login.html">Login</a></li>
-            <li><a href="">Contatos</a></li>
-        </ul>
-      </header>    
-    </section>    
-    <div class ="content">
 
-      <div class="box">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="../public/images/solFavicon.png" type="image/x-icon" />
+  <title>Cabeçalho</title>
+</head>
+
+<body>
+  <section class="sec">
+    <!-- Cabeçalho -->
+    <header>
+      <a href="#" class="logo"><img src="../public/images/logo.png" alt="logo" /></a>
+      <div class="toggleMenu" onclick="menuToggle();"></div>
+      <ul class="navigation">
+        <li><a href="../paginaHome/index.html">Home</a></li>
+        <li><a href="../paginaEvento/index.html">Eventos</a></li>
+        <li><a href="../paginaLogin/login.html">Login</a></li>
+        <li><a href="../paginaCadastro/index.html">Cadastro</a></li>
+        <li><a href="../paginaCarrinho/carrinho.html">Carrinho</a></li>
+        <li><a href="../paginaAjuda/faleConosco.html">Ajuda</a></li>
+      </ul>
+    </header>
+  </section>
+  <div class="content">
+
+    <div class="box">
       <h1 class="title">
         Compra realizada com sucesso!
-                
+
       </h1>
       <p class="text">Em breve você receberá mais informações sobre envento através do seu e-mail</p>
       <br>
       <p class="text">Os ingressos ficarão disponíveis em seu perfil na área de compras</p>
       <br>
-      <img class="verificado" src ="/images/simbolo-verificado.png" alt="check">
+      <img class="verificado" src="../public/images/simbolo-verificado.png" alt="check">
       <br>
       <br>
       <h3 class="title">Agradecemos por realizar sua compra conosco</h3>
     </div>
 
+  </div>
+
+  <footer>
+    <div class="container-footer-all">
+      <div class="container-body">
+        <div class="colum1">
+          <h1>Mais Informações</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+            adipisci accusamus voluptatum nobis aut laborum ut asperiores,
+            minus reiciendis dignissimos! Expedita optio assumenda animi id
+            vero totam, quod rerum porro.
+          </p>
+        </div>
+
+        <div class="colum2">
+          <h1>Redes Sociais</h1>
+
+          <div class="row">
+            <img src="../public/images/facebook.png" />
+            <label>Nos Siga no Facebook</label>
+          </div>
+          <div class="row">
+            <img src="../public/images/twitter.png" />
+            <label>Nos Siga no Twitter</label>
+          </div>
+          <div class="row">
+            <img src="../public/images/instagram.png" />
+            <label>Nos Siga no Instagram</label>
+          </div>
+        </div>
+
+        <div class="colum3">
+          <h1>Contatos</h1>
+        </div>
+      </div>
     </div>
 
-    <footer>
-      <div class="container-footer-all">
-        <div class="container-body">
-          <div class="colum1">
-            <h1>Mais Informações</h1>
+    <div class="container-footer">
+      <div class="footer">
+        <div class="copyright">
+          © 2021 Ticket Music - Todos os Direitos Reservados
+        </div>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              adipisci accusamus voluptatum nobis aut laborum ut asperiores,
-              minus reiciendis dignissimos! Expedita optio assumenda animi id
-              vero totam, quod rerum porro.
-            </p>
-          </div>
-
-          <div class="colum2">
-            <h1>Redes Sociais</h1>
-
-            <div class="row">
-              <img src="/images/facebook.png" />
-              <label>Nos Siga no Facebook</label>
-            </div>
-            <div class="row">
-              <img src="/images/twitter.png" />
-              <label>Nos Siga no Twitter</label>
-            </div>
-            <div class="row">
-              <img src="/images/insta.png" />
-              <label>Nos Siga no Instagram</label>
-            </div>
-          </div>
-
-          <div class="colum3">
-            <h1>Contatos</h1>
-          </div>
+        <div class="information">
+          <a href="">Informações Da Compania</a> |
+          <a href="">Privacidades e Politicas</a> |
+          <a href="">Termos e Condições</a>
         </div>
       </div>
+    </div>
+  </footer>
+</body>
 
-      <div class="container-footer">
-        <div class="footer">
-          <div class="copyright">
-            © 2021 Ticket Music - Todos os Direitos Reservados
-          </div>
-
-          <div class="information">
-            <a href="">Informações Da Compania</a> |
-            <a href="">Privacidades e Politicas</a> |
-            <a href="">Termos e Condições</a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>
