@@ -1,12 +1,12 @@
 /* Fonte externa importada do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Alice&family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif
 }
-
 /*Container Principal*/
 .sec {
     position: relative;
