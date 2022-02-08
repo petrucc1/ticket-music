@@ -1,0 +1,24 @@
+/* Fonte externa importada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif
+}
+
+.conteiner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#130A3D,#672550);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+h1 {
+    color: #130A3D;
+}
