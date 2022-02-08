@@ -1,0 +1,25 @@
+1° Cria o arquvo ejs "login.ejs"
+2° Copia o CSS para a pasta public/stylesheet 
+3° Altera o caminho do CSS no arquivo ejs e depois altera o caminho das Imagens que já estão na pasta public 
+    /images/logo.png
+4° Chama a rota no arquivo App JS .
+
+    var loginRouter = require('./routes/login');
+
+    app.use('/login',loginRouter);
+
+5° Cria a o arquivo de rota na pasta routes login.js 
+
+    var express = require('express');
+    var router = express.Router();
+
+    /* GET users listing. */
+    router.get('/', function(req, res, next) {
+    res.render('login');
+    });
+
+    module.exports = router;
+
+6 ° Executa o npm -  npm start
+
+7 ° Acessa o caminho : http://localhost:3000/login
