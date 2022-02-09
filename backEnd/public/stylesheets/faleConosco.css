@@ -1,0 +1,387 @@
+/* Fonte externa importada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif
+}
+
+/* Verificar a função
+
+* input,select,textarea,button{
+    border-radius: 8px;
+    margin: 1px;
+    
+}
+*/
+
+/* links */
+a   {
+    text-decoration: none;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Imagens */
+
+
+.banner-event{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+
+}
+
+/*Container Principal*/
+.sec {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+header .logo {
+    font-size: 2em;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*Sentido do cabeçalho*/
+header .navigation {
+    position: relative;
+    display: flex;
+}
+
+header .navigation li {
+    list-style: none;
+}
+
+header .navigation li a {
+    color: #fff;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.content {
+    position: relative;
+    max-width: 600px;
+    z-index: 1;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.content h2 span {
+    color: #fff;
+    font-size: 0.7em;
+}
+
+.content p {
+    color: #fff;
+    margin: 10px 0 20px;
+}
+
+.content a {
+    padding: 10px 30px;
+    background: #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    border-radius: 50px;
+}
+
+/*Ainda nao Definido*/
+header .logo img {
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+/*body e main */
+
+main{
+    display: flex;
+}
+
+
+/*BANNER SITE */
+
+.banner-container img {
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.start-help {
+    align-items: center;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.start-help h1{
+    font-size: 30px;
+
+}
+.start-help P{
+    font-size: 13px;
+    margin-top: 13PX;
+}
+
+.start-help img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*FORMULARIO*/
+
+
+.form-body{
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+}   
+
+fieldset {
+    display: flex;
+    border: 0;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea, .campo input[type='tel']{
+    padding:0.2em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    padding-right: 1em;
+}
+
+.botao input{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 0;
+    font-weight: bolder;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+
+/*Final do body*/
+
+body h4 {
+    margin-top: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+/*footer*/
+
+footer .social-media{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#end-page{ 
+    padding: 10px;
+    background-color: black;
+    color:white;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
+/* responsive*/
+
+@media(max-width:800){
+    header{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/*Configurações Footer Contatos*/
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+    cursor: pointer;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
