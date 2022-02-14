@@ -12,6 +12,16 @@ var compraRouter = require('./routes/compraEfetuada')
 var carrinhoRouter = require('./routes/carrinho')
 var homeRouter = require('./routes/home')
 var ingressosRouter = require('./routes/ingressos')
+var cadastroRouter = require('./routes/cadastro')
+var ajudaRouter = require('./routes/ajuda')
+var perfilRouter = require('./routes/perfil')
+var show01Router = require('./routes/show01')
+var show02Router = require('./routes/show02')
+var show03Router = require('./routes/show03')
+var show04Router = require('./routes/show04')
+var show05Router = require('./routes/show05')
+var show06Router = require('./routes/show06')
+
 
 var app = express()
 
@@ -33,6 +43,15 @@ app.use('/compraEfetuada', compraRouter)
 app.use('/carrinho', carrinhoRouter)
 app.use('/home', homeRouter)
 app.use('/ingressos', ingressosRouter)
+app.use('/cadastro', cadastroRouter)
+app.use('/ajuda', ajudaRouter)
+app.use('/perfil', perfilRouter)
+app.use('/show01',show01Router)
+app.use('/show02',show02Router)
+app.use('/show03',show03Router)
+app.use('/show04',show04Router)
+app.use('/show05',show05Router)
+app.use('/show06',show06Router)
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

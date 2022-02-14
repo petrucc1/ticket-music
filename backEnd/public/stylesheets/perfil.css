@@ -1,0 +1,57 @@
+/* Fonte externa importada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif
+}
+
+.conteiner {
+    min-height: 100vh;
+    position: absolute;
+    display: flex;
+    background: linear-gradient(#130A3D,#672550);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Estilização do nome do usuário */
+h1 {
+    color: #FFFFFF;
+    position: absolute;
+    top: 7%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilização da lista */
+ul {
+    text-align: center;
+  }
+
+/* Estilização da linha */
+li {
+    background-color: #37346C;
+    margin-top: 50px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+/* Estilização da linha quando o mouse passar em cima */
+li:hover {
+    background-color: #672550;
+    border: 1px solid #CB9FA2;
+    transition: 0.5s;
+}
+
+/* Estilização do link "a" */
+a {
+    color: #CB9FA2;
+    text-decoration: none;
+    padding: 6px;
+    transition: 0.5s;
+}

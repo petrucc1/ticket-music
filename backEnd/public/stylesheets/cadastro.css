@@ -1,0 +1,342 @@
+/* Fonte externa importada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif
+}
+
+/* Estilização do header */
+*{
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*Container Principal*/
+.sec {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#130A3D,#672550);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+header .logo {
+    font-size: 2em;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*Sentido do cabeçalho*/
+header .navigation {
+    position: relative;
+    display: flex;
+}
+
+header .navigation li {
+    list-style: none;
+}
+
+header .navigation li a {
+    color: #fff;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.content {
+    position: relative;
+    max-width: 600px;
+    z-index: 1;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.content h2 span {
+    color: #fff;
+    font-size: 0.7em;
+}
+
+.content p {
+    color: #fff;
+    margin: 10px 0 20px;
+}
+
+.content a {
+    padding: 10px 30px;
+    background: #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    border-radius: 50px;
+}
+
+/*Ainda não definido*/
+header .logo img {
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+nav {
+    background-color: #BFBBBB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    height: 80px;
+    font-size: 50px;
+    }
+
+/* Estilização do body */
+.first-conteiner {
+    display: block;
+    background-color: #130A3D;
+    font-style: regular;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.first-paragraph {
+    background: red;
+    position: absolute;
+    left: 57%;
+    top: 20%;
+    font-weight: bolder;
+    font-size: 20px;
+    justify-content: center;
+}
+
+#first-div-image {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    justify-content: flex-end;
+}
+
+.second-conteiner {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    width: 600px;
+}
+
+.first-title {
+    color: #130A3D;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+fieldset {
+    border: none;
+}
+
+#name, #email, #password, #confirm-password, #cpf, #date {
+    color: #9B5666;
+    border: none;
+    outline: none;
+}
+
+.terms {
+    color: #9B5666;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #130A3D;
+}
+
+a:hover {
+    color: #9B5666;
+    transition: 0.5s;
+}
+
+.second-title {
+    color: #9B5666;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+p {
+    font-size: 10px;
+}
+
+/* Estilização do botão */
+button {
+    color: #FFFFFF;
+    background-color: #130A3D;
+    border-radius: 30px;
+    padding: 0.5%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #FFFFFF;
+    background-color: #672550;
+    transition: 3s;
+}
+
+/*Configurações Footer Contatos*/
+
+footer {
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1 {
+    max-width: 400px;
+}
+
+.colum1 h1 {
+    font-size: 22px;
+}
+
+.colum1 p {
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2 {
+    max-width: 400px;
+    
+}
+
+.colum2 h1 {
+    font-size: 22px;
+}
+
+.row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img {
+    width: 36px;
+    height: 36px;
+}
+
+.row label {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3 {
+    max-width: 400px;
+}
+
+.colum3 h1 {
+    font-size: 22px;
+}
+
+.row2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img {
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer {
+    width: 100%;  
+    background: #101010;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright {
+    color: #C7C7C7;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a {
+    text-decoration: none;
+    color: #C7C7C7;
+    cursor: pointer;
+}
+
+/*Footer*/
+
+@media screen and (max-width: 1100px) {
+    
+    .container-body {
+        flex-wrap: wrap;
+    }
+    
+    .colum1 {
+        max-width: 100%;
+    }
+    
+    .colum2, .colum3 {
+        margin-top: 40px;
+    }
+}
