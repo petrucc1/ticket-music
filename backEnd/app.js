@@ -22,7 +22,6 @@ var show04Router = require('./routes/show04')
 var show05Router = require('./routes/show05')
 var show06Router = require('./routes/show06')
 
-
 var app = express()
 
 // view engine setup
@@ -46,12 +45,12 @@ app.use('/ingressos', ingressosRouter)
 app.use('/cadastro', cadastroRouter)
 app.use('/ajuda', ajudaRouter)
 app.use('/perfil', perfilRouter)
-app.use('/show01',show01Router)
-app.use('/show02',show02Router)
-app.use('/show03',show03Router)
-app.use('/show04',show04Router)
-app.use('/show05',show05Router)
-app.use('/show06',show06Router)
+app.use('/show01', show01Router)
+app.use('/show02', show02Router)
+app.use('/show03', show03Router)
+app.use('/show04', show04Router)
+app.use('/show05', show05Router)
+app.use('/show06', show06Router)
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
