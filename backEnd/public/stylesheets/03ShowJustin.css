@@ -1,11 +1,10 @@
 /* Fonte externa importada do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Julius+Sans+One&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif
+    font-family:  'Julius Sans One', sans-serif;
 }
 
 /*Container Principal*/
@@ -212,7 +211,7 @@ main{
     padding:       17px 31px;
     color:         #ffffff;
     display:       inline-block;
-    font:          normal bold 16px/1 "Ubuntu", sans-serif;
+    font:          normal bold 16px/1  'Julius Sans One', sans-serif;
     text-align:    center;
     text-shadow:   3px 3px #000000;
 }
