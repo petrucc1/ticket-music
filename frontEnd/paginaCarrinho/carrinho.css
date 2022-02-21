@@ -1,22 +1,22 @@
 /* Fonte externa importada do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Julius+Sans+One&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif
+    font-family:  'Julius Sans One', sans-serif;
 }
 /*Container Principal*/
 .sec {
     position: relative;
-    width: 300%;
-    min-height: 15vh;
+    width: 100%;
+    min-height: 100vh;
     background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 100px;
 }
 
 header {
@@ -96,41 +96,162 @@ header .logo img {
     margin: 10px;
 }
 
-.box {
-    background: #ccc;
-    padding: 200px 500px;
-    justify-content: center;
+.menu{
+    height: 80px;
+    background-color: rgb(196, 196, 196);
+    font-size: 60px;
     text-align: center;
-    align-items: center;
+    padding: 20px;
 }
 
-.box p {
-    color: black;
-}
-
-.content {
-    position: relative;
-    max-width: 100%;
-    
-    color: black;
-    background: #fff;
-    
+.container{
     display: flex;
-    height: 100vh;
-    
-    justify-content: center;
-    align-items: center;       
-} 
-
-/*Imagem check*/
-.verificado {
-    width: 100px;
-    height: 100px;
-    background: green;
-    border-radius: 50px;
-   
+    justify-content:space-around;
+    padding: 50px 25px;
+    height: 500px;
 }
+
+.resumoDaCompra{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(241, 238, 238);
+    margin-right: 25px;
+    padding: 20px;
+}
+
+.formaDePagamento{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 238, 238);
+    width: 50%;
+    padding: 20px;
+}
+.howPay{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.dataPay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color:rgb(192, 190, 190);
+}
+
+.formaDePagamento h4{
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    background-color: rgb(196, 196, 196);
+
+}
+
+form .infoCard{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+form .secureCode{
+    width: 90px;
+  }
+
+form .cpfCard{
+    width: 50%;;
+
+}
+
+form .inline{
+    display: flex;
+    align-self: center;
+    width:100%;
+    gap: 10px;
+}
+
+form .inline2{
+    display: flex;
+    align-self: center;
+    width:90%;
+    gap: 10px;
+}
+
+form input {
+    width: 100%; 
+    block-size: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: #ccc 1px solid;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+form input:focus {
+    background-color: #ccc;
+    border-radius: 50px;
+}
+
+form label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form #send {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;  
+    align-items:flex-end;
+    width: 50%;
+}
+
+form input[type=submit] {
+    width: 70%;
+    block-size: 40px;
+    background-color: rgb(208, 40, 40);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form select:hover {
+    background-color: #ccc;
+}
+
+.resumoDaCompra .descricaoValor{
+    display: flex;
+    color: hotpink;
+}
+
+#resumo{
+    width: 90%;
+    margin: auto;
     
+}
+.totalLine{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.aceite {
+    text-align: center;
+}
+
 /*Configurações Footer Contatos*/
 
 footer{
