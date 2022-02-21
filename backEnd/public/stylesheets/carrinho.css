@@ -8,6 +8,10 @@
     font-family:  'Julius Sans One', sans-serif;
 }
 
+p{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 /*Container Principal*/
 .sec {
     position: relative;

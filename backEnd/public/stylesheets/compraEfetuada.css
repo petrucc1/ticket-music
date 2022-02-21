@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+p{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 /*Container Principal*/
 .sec {
     position: relative;
