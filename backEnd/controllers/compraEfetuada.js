@@ -48,5 +48,10 @@ module.exports = {
   renderizaIngressos,
   renderizaPerfil,
   renderizaEventos,
-  renderizaShows
+  renderizaShow01,
+  renderizaShow02,
+  renderizaShow03,
+  renderizaShow04,
+  renderizaShow05,
+  renderizaShow06
 }
