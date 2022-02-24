@@ -121,19 +121,31 @@ nav {
     background-color: #130A3D;
     font-style: regular;
     font-size: 20px;
-    border-radius: 30px;
+    border-radius: 60px;
     width: 100%;
     height: auto;
+    padding-left: 70px ;
+}
+
+.second-conteiner{
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .first-paragraph {
-    background: red;
+    background: none;
     position: absolute;
-    left: 57%;
+    left: 45%;
     top: 20%;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 26px;
     justify-content: center;
+    font-size: 27px;
+    background-color: ghostwhite;
+    padding: 0.3%;
+    border-radius: 12px;
 }
 
 #first-div-image {
@@ -141,6 +153,8 @@ nav {
     width: 50%;
     height: 50%;
     justify-content: flex-end;
+    
+    
 }
 
 .second-conteiner {
@@ -185,7 +199,7 @@ a:hover {
 .second-title {
     color: #9B5666;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 p {
@@ -197,12 +211,14 @@ button {
     color: #FFFFFF;
     background-color: #130A3D;
     border-radius: 30px;
-    padding: 0.5%;
+    padding: 1.5%;
     margin: 0;
+    width: 20%;
     position: absolute;
-    top: 50%;
+    bottom: 2%;
     right: 25%;
     cursor: pointer;
+    height: -9px;
 }
 
 button:hover {
