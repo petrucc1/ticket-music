@@ -130,7 +130,8 @@ nav {
 }
 
 .first-paragraph {
-    background: red;
+    background-color: #130A3D;
+    color:#FFFFFF;
     position: absolute;
     left: 57%;
     top: 20%;
@@ -175,6 +176,7 @@ fieldset {
     display: inline-block;
 }
 
+
 a {
     text-decoration: none;
     color: #130A3D;
@@ -196,6 +198,9 @@ p {
 }
 
 /* Estilização do botão */
+
+.button {margin-top:14vh}
+
 button {
     color: #FFFFFF;
     background-color: #130A3D;

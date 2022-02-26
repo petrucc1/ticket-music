@@ -6,19 +6,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family:  'Julius Sans One', sans-serif;
+    color: white;
 }
 p{
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Verificar a função
 
-* input,select,textarea,button{
-    border-radius: 8px;
-    margin: 1px;
-    
-}
-*/
 
 /* links */
 a   {
