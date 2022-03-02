@@ -112,8 +112,7 @@ header .logo img {
 .container{
     display: flex;
     justify-content:space-around;
-    padding: 50px 25px;
-    height: 500px;
+    padding: 50px 10px;
 }
 
 .resumoDaCompra{
@@ -121,8 +120,17 @@ header .logo img {
     flex-direction: column;
     width: 50%;
     background-color: rgb(241, 238, 238);
-    margin-right: 25px;
     padding: 20px;
+    position: relative;
+    right: 5%;
+    text-align: justify;
+    border:solid 2px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.596);
+}
+
+.resumoDaCompra h2, h3 {
+    text-align: center;
+
 }
 
 .formaDePagamento{
@@ -131,6 +139,10 @@ header .logo img {
     background-color: rgb(241, 238, 238);
     width: 50%;
     padding: 20px;
+    position: relative;
+    left: 5%;
+    border:solid 2px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.596);
 }
 .howPay{
     display: flex;
@@ -148,10 +160,19 @@ header .logo img {
     background-color:rgb(192, 190, 190);
 }
 
-.formaDePagamento h4{
+.formaDePagamento h2,h4{
     text-align: center;
-    padding: 10px;
+
 }
+
+.formaDePagamento h4 {
+    padding: 20px;
+}
+
+.formaDePagamento label, input {
+    display: flex;
+}
+
 
 form {
     display: flex;
@@ -227,11 +248,14 @@ form #send {
 form input[type=submit] {
     width: 70%;
     block-size: 40px;
-    background-color: rgb(208, 40, 40);
+    background-color: white;
     text-align: center;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 10px;
     cursor: pointer;
+    border:solid 2px;
+    
 }
 
 form select:hover {
