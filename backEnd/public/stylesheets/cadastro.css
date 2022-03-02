@@ -154,10 +154,20 @@ nav {
     justify-content:center;
     align-items: center;
     position: absolute;
-    top: 40%;
-    left: 57%;
+    top: 20%;
+    left: 60%;
     width: 400px;
+    height: 400px;
     padding: 20px;
+    border-radius: 15px;
+}
+
+.second-conteiner .title1 {
+    font-size: 18px;
+    font-weight: bolder;
+    position: absolute;
+    top: 10%;
+    color: #130A3D;
 }
 
 .first-title {
