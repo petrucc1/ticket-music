@@ -40,7 +40,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
 }
 
 header .logo {
@@ -148,7 +148,7 @@ nav {
 }
 
 .second-conteiner {
-    background-color: #e90808;
+    background-color:#FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -160,6 +160,9 @@ nav {
     height: 400px;
     padding: 20px;
     border-radius: 15px;
+    border:solid 2px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.596);
+    z-index: 1;
 }
 
 .second-conteiner .title1 {
@@ -176,8 +179,7 @@ nav {
     font-weight: bolder;
     justify-content: center;
     align-items: center;
-    position: relative;
-    left: 15%;
+    text-align: center;
     padding: 5px;
 }
 
@@ -192,8 +194,12 @@ fieldset {
 }
 
 .terms {
-    color: #9B5666;
+    color: #130A3D;
     display: inline-block;
+    position: absolute;
+    padding: 10px;
+    top: 85%;
+    text-align: center;
 }
 
 
@@ -208,9 +214,12 @@ a:hover {
 }
 
 .second-title {
-    color: #9B5666;
+    color: #130A3D;
     font-weight: normal;
     font-size: 18px;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bolder;
 }
 
 p {
