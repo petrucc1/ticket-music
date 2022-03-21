@@ -17,19 +17,7 @@ const compra = database.define('compra', {
         type: Sequelize.STRING,
         allowNull: false
     },
-    qtd_premium: {
-        type: Sequelize.INTEGER,
-        allowNull: false
-    },
-    qtd_pista: {
-        type: Sequelize.INTEGER,
-        allowNull: false
-    },
-    qtd_arquibancada: {
-        type: Sequelize.INTEGER,
-        allowNull: false
-    }
-},
+ },
 
 {
     timeStamps: false,

@@ -16,10 +16,7 @@ const evento = database.define('evento', {
         type: Sequelize.DATE,
         allowNull: false
     },
-    hora: {
-        type: Sequelize.STRING,
-        allowNull: false
-    },
+
     descricao: {
         type: Sequelize.STRING,
         allowNull: false
@@ -28,30 +25,10 @@ const evento = database.define('evento', {
         type: Sequelize.STRING,
         allowNull: false
     },
-    qtd_premium: {
-        type: Sequelize.STRING,
-        allowNull: false
-    },
-    qtd_pista: {
-        type: Sequelize.STRING,
-        allowNull: false
-    },
-    qtd_arquibancada:{
-        type: Sequelize.STRING,
-        allowNull: false
-    },
     valor_premium: {
         type: Sequelize.STRING,
         allowNull: false
     },
-    valor_pista: {
-        type: Sequelize.STRING,
-        allowNull: false
-    },
-    valor_arquibancada: {
-        type: Sequelize.STRING,
-        allowNull: false
-    }
 
     
 
