@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 23-Mar-2022 às 15:14
+-- Tempo de geração: 23-Mar-2022 às 15:29
 -- Versão do servidor: 10.4.22-MariaDB
 -- versão do PHP: 8.1.2
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `ticket_music`
 --
+CREATE DATABASE IF NOT EXISTS `ticket_music` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `ticket_music`;
 
 -- --------------------------------------------------------
 
@@ -43,8 +45,6 @@ CREATE TABLE `cadastro` (
 INSERT INTO `cadastro` (`id_usuario`, `nome`, `cpf`, `email`, `telefone`, `senha`) VALUES
 (1, 'Rafael Tananka', '72951266006', 'marylolipop@piftir.com', '119755564533', '151515151asd51a'),
 (2, 'Vitor João Silva', '02374712052', 'marylolipop@sewce.com', '1178755656', 'dasdasd15100');
-(3, 'Wagner Bicudo','02374712052','wagner@gmail.com','11975665522','123456');
-(4, 'Marcela Mariana','01145454212','marcelamariana@uol.com','455499595','Ferramentas12')
 
 -- --------------------------------------------------------
 
