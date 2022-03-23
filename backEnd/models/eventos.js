@@ -1,22 +1,20 @@
 const Sequelize = require("sequelize")
 const database = require("../database/index")
 
-const evento = database.define('evento', {
+const evento = database.define('eventos', {
     id_evento: {
         type: Sequelize.INTEGER,
         allowNull: false,
         primaryKey: true
     },
-
     nome_evento: {
         type: Sequelize.STRING,
         allowNull: false
     },
-    data: {
+    data_hora: {
         type: Sequelize.DATE,
         allowNull: false
     },
-
     descricao: {
         type: Sequelize.STRING,
         allowNull: false
@@ -25,13 +23,10 @@ const evento = database.define('evento', {
         type: Sequelize.STRING,
         allowNull: false
     },
-    valor_premium: {
-        type: Sequelize.STRING,
+    valor_ingresso: {
+        type: Sequelize.FLOAT,
         allowNull: false
     },
-
-    
-
 }, 
 {
     timeStamps: false,

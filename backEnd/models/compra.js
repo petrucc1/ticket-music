@@ -2,23 +2,20 @@ const Sequelize = require("sequelize")
 const database = require("../database/index")
 
 const compra = database.define('compra', {
-    codcompra: {
+    cod_compra: {
         type: Sequelize.INTEGER,
         allowNull: false,
         primaryKey: true
     },
-
-    idevento: {
+    id_evento: {
         type: Sequelize.INTEGER,
         allowNull: false
     },
-
-    cpf: {
+    id_usuario: {
         type: Sequelize.STRING,
         allowNull: false
     },
  },
-
 {
     timeStamps: false,
     createdAt: false,

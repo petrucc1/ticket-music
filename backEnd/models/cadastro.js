@@ -1,13 +1,18 @@
+const sequelize = require("sequelize")
+const { FLOAT } = require("sequelize")
 const Sequelize = require("sequelize")
 const database = require("../database/index")
 
 const cadastro = database.define('cadastro', {
+    id_user:{
+        type:sequelize.INTEGER,
+        allownull:false,
+        primaryKey:true
+    }, 
     CPF: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false,
-        primaryKey: true
     },
-
     nome: {
         type: Sequelize.STRING,
         allowNull: false

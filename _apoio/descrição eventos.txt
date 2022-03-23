@@ -1,0 +1,104 @@
+    id_evento: 01
+
+    nome_evento: Sepultura - SepulQuarta
+
+    data_hora: 21 de outubro de 2023, 20:00
+
+    descricao: Andreas Kisser, Derrick Green, Paulo Xisto Jr. e Eloy Casagrande. Foto de Marcos Hermes. <br>
+               O Sepultura se prepara para fazer o retorno aos palcos depois de mais de dois anos longe do público. Esse momento se torna ainda mais especial por se tratar do show de lançamento do álbum Quadra, que a banda foi impedida de fazer turnê por conta da pandemia do novo coronavírus.
+               A apresentação está marcada para o dia 21 de Outubro, na Audio, em São Paulo. Os ingressos já estão à venda.          
+               O Sepultura havia acabado de lançar Quadra, seu 15º álbum de estúdio, quando a crise sanitária forçou público e músicos a ficarem distantes.
+              "Estamos ansiosos para retornar e encontrar com os fãs", comenta Andreas Kisser, que compõe a banda junto de Paulo Xisto Jr. (baixo), Derrick Green (vocal) e Eloy Casagrande (bateria).
+               Para esse novo momento, além de faixas do Quadra, como "Ali", "Guardians of Earth" e "Fear; Pain; Chaos; Suffering", o Sepultura reserva surpresas para quem estiver na plateia. "Vamos tocar também músicas mais antigas que fazem parte da nossa carreira", comenta Andreas Kisser.
+
+    link_img: https://www.imagemhost.com.br/images/2022/03/23/01ShowSepultura.jpg
+
+    valor_ingresso: 150
+    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    id_evento: 02
+
+    nome_evento: Pixote - 30 anos 
+
+    data_hora: 04 de março de 2024, 20:00
+
+    descricao: O Pixote, um dos maiores grupos de pagode da atualidade, vai se apresentar na arena Ticket music, com a turnê de lançamento do DVD “Fã de Carteirinha Sunset”.
+               No repertório, estarão os grandes sucessos que marcaram a carreira da banda e os seus novos hits, como “Nem de Graça”, “Vai Errar de Novo” e “Saudade Arregaça”.
+
+    link_img: https://www.imagemhost.com.br/images/2022/03/23/02ShowPixote.jpg
+
+    valor_ingresso: 150              
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    id_evento: 05
+
+    nome_evento: Justin Bieber - Justice World Tour
+
+    data_hora: 21 de outubro de 2023, 20:00
+
+    descricao: Justin Bieber anunciou as datas da “Justice World Tour” na América do Sul. O único show confirmado no Brasil é o da Ticket Music.
+               A turnê foi originalmente idealizada por Justin Bieber para divulgar o álbum Changes, em 2020, mas precisou ser adiada devido a pandemia da Covid-19.
+               Desde então, o cantor canadense alterou todo o seu cronograma e lançou, em março, o álbum Justice. Em outubro, o artista lançou a versão estendida do disco com três músicas inéditas.
+       
+
+
+    link_img: https://www.imagemhost.com.br/images/2022/03/23/03ShowJustin.jpg
+
+    valor_ingresso: 550                  
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    id_evento: 07
+
+    nome_evento: Anitta - Girl from Rio
+
+    data_hora: 12 de Janeiro de 2023, 20:00
+
+    descricao: The Girl From Rio” desembarca na nossa temporada trazendo seus grandes sucessos nacionais e internacionais.
+                A cantora Anitta vai botar fogo no parquinho retornando ao palco do P12 na agenda Hot Summer 2022.             
+                Prepare-se para curtir a eterna malandra no nosso verão, que será inesquecível..
+       
+
+
+    link_img: https://www.imagemhost.com.br/images/2022/03/23/04ShowAnitta.jpg
+
+    valor_ingresso: 200
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    id_evento: 08
+
+    nome_evento:Ludmilla - Numanice
+
+    data_hora: 30 de Janeiro de 2023, 20:00
+
+    descricao:Ludmilla já tem feito uma série de shows ao vivo. Ela alterna com apresentações do “Numanice“, seu projeto de pagode, com seus shows tradicionais com muito pop e funk. Dessa vez, vai ser um show raiz.
+               No repertório, não poderá faltar hits como “Verdinha“, “Deixa de Onda“, “Din Din Din“, “Onda Diferente“, entre outros. Não dá para esquecer também a nova “Socadona“,
+               que ganhou até uma versão de funk apresentada pelo novo alterego de Ludmilla, a DJ Ludbrisa. Esse é o nome que ela deu para o momento que assume as picapes nos shows do Numanice.</p>
+    
+
+
+    link_img: https://www.imagemhost.com.br/images/2022/03/23/05ShowLudmilla.jpg
+
+    valor_ingresso: 250                          
+
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    id_evento: 09
+
+    nome_evento:Parque Patati Patatá Circo Show
+
+    data_hora: 30 de Março de 2023, 20:00
+
+    descricao:Após 8 meses de paralisação devido à pandemia do COVID-19, a dupla mais amada do Brasil reestreia o “Patati Patatá Circo Show” em São Paulo. <br>
+                O espetáculo, assistido por mais de 1 milhão de pessoas, volta devidamente equipado e seguindo todos os protocolos sanitários do município e do estado de São Paulo, oferecendo segurança e conforto ao público e seus colaboradores, tudo isso sem perder a diversão característica do Patati Patatá Circo Show, onde as crianças tem a oportunidade de interagir com os personagens da série Parque Patati Patatá, sucesso no Discovery Kids.<br>
+                O Circo irá operar com apenas 50% da sua capacidade total, promovendo assim o distanciamento necessário para garantir a segurança do seu público. Um túnel de desinfecção será instalado e haverá checagem de temperatura na entrada do circo, totens com álcool gel estarão distribuídos pelo local, banheiros com tapetes sanitizantes, atendentes equipados com máscaras e devidamente treinados para realizar o manuseio correto de alimentos e bebidas, além de uma equipe de limpeza reforçada. Tudo isso estará à disposição dos visitantes, a fim de tornar a experiência no circo a mais segura, tranquila e divertida possível.<br>
+                Os ingressos só poderão ser adquiridos de forma online, através do site ou aplicativo, e não haverá bilheteria física no local para evitar filas, aglomeração e manipulação de moeda ou cartões. Assim como a compra de alimentos, bebidas e produtos da loja, que terá um aplicativo próprio para comercialização no dia do evento.<br> 
+                O circo traz um universo cheio de encanto e magia onde as crianças terão a oportunidade de sorrir e brincar com os seus melhores amigos, Patati Patatá, e vivenciar momentos mágicos com os personagens que fazem sucesso na TV: Nutrícia, Quasi, Floffy, Alegra, Amarga e Azedo. O espetáculo apresenta números circenses misturados com as canções de sucessos da dupla Patati Patatá.
+
+
+
+    link_img: https://www.imagemhost.com.br/images/2022/03/23/06ShowPatatiPatata.jpg
+
+    valor_ingresso: 150                             
