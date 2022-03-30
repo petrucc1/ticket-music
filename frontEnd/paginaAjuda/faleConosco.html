@@ -20,12 +20,12 @@
             <!-- À esquerda há uma clave de Sol, que é um símbolo musical, e à direita dela está escrito "Ticket Music" -->
             <div class="toggleMenu" onclick="menuToggle();"></div>
             <ul class="navigation">
-                <li><a href="../paginaHome/home.html" tabindex="1">Início</a></li>
-                <li><a href="../paginaEventos/eventos.html" tabindex="2">Eventos</a></li>
-                <li><a href="../paginaLogin/login.html" tabindex="3">Entrar</a></li>
-                <li><a href="../paginaCadastro/cadastro.html" tabindex="4">Cadastro</a></li>
-                <li><a href="../paginaCarrinho/carrinho.html" tabindex="5">Carrinho</a></li>
-                <li><a href="../paginaAjuda/faleConosco.html" tabindex="6">Ajuda</a></li>
+                <li><a href="../paginaHome/home.html" tabindex="0">Início</a></li>
+                <li><a href="../paginaEventos/eventos.html" tabindex="1">Eventos</a></li>
+                <li><a href="../paginaLogin/login.html" tabindex="2">Entrar</a></li>
+                <li><a href="../paginaCadastro/cadastro.html" tabindex="3">Cadastro</a></li>
+                <li><a href="../paginaCarrinho/carrinho.html" tabindex="4">Carrinho</a></li>
+                <li><a href="../paginaAjuda/faleConosco.html" tabindex="5">Ajuda</a></li>
             </ul>
         </header>
 
@@ -37,14 +37,20 @@
                 <div class="start-help">
                     <h1>Fale conosco</h1>
                     <p>Preencha o formulário disponível com as suas informações para podermos te ajudar.</p>
-                    <a href="http://www.messenger.com"><img
+                    <a href="http://www.messenger.com">
+                        <img
                             src="https://icons.iconarchive.com/icons/alecive/flatwoken/64/Apps-Facebook-Messenger-icon.png"
-                            class="media-object img-responsive img-thumbnail"></a>
-                    <a
-                        href="https://api.whatsapp.com/send?phone=551112345678&text=Ol%C3%A1%20%2C%20TicketMusic%20!%20podem%20me%20ajudar%20%3F"><img
+                            class="media-object img-responsive img-thumbnail"
+                            style="height: 4em; width: 4em;"
+                            alt='A imagem possui um quadrado azul pequeno que contém um símbolo de raio centralizado, representando o botão do mensageiro "Facebook Messenger".'>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=551112345678&text=Ol%C3%A1%20%2C%20TicketMusic%20!%20podem%20me%20ajudar%20%3F">
+                        <img
                             src="https://icons.iconarchive.com/icons/alecive/flatwoken/64/Apps-Whatsapp-icon.png"
-                            class="media-object img responsive img-thumbnail"></a>
-                    <br>
+                            class="media-object img responsive img-thumbnail"
+                            style="height: 4em; width: 4em;"
+                            alt='A imagem possui um quadrado verde pequeno ao lado direito do outro, contém um símbolo de telefone centralizado, representando o botão do aplicativo "WhatsApp".'>
+                    </a>
                 </div>
 
                 <div class="form-body">
@@ -78,8 +84,7 @@
                             </div>
                             <!-- Campo de texto -->
                             <div class="campo">
-                                <br>
-                                <label>Comentário</label>
+                                <label>Conte o que aconteceu</label>
                                 <textarea row=6 style="width: 20em;" id="comentario" name="comentario"></textarea required>
                             </div>
                             <!--Botão -->
@@ -98,8 +103,9 @@
                  <div class="colum1">
                      <h1>Mais Informações</h1>
                      <p>Este site foi inteiramente desenvolvido com o objetivo de concluir um curso, onde foi necessário criar do
-                        zero um site contendo a parte do front-end e back-end, do tema que o grupo pré-selecionado quisesse escolher,
-                        para podermos entregar no prazo de 7 (sete) meses para conquistarmos o tão desejado certificado de conclusão.
+                        zero uma aplicação contendo a parte do front e back-end, o tema à escolher pelo grupo pré-selecionado, para
+                        podermos entregar no prazo de 7 (sete) meses para conquistarmos o tão desejado certificado de conclusão. 
+                        Agradecemos a colaboração de todos os participantes e ao corpo docente que tanto nos ensinou e auxiliou!
                      </p>
                  </div>
             </div> 
@@ -108,7 +114,7 @@
         <div class="container-footer">
             <div class="footer">
                 <div class="copyright"><strong>&copy; 2022 Ticket Music - Todos os Direitos Reservados</strong></div>
-                <div class="information">
+                <div class="politicy">
                     <a href="../paginaAjuda/termos.html"><strong>Política de Privacidade e Termos de Uso</strong></a>
                 </div>
             </div>

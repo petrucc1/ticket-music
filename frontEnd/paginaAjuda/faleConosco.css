@@ -8,9 +8,9 @@
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 
-a   {
+a {
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
     font-family: 'Roboto', 'Open Sans', sans-serif;
     align-items: center;
     cursor: pointer;
@@ -39,10 +39,11 @@ a   {
 
 header {
     position: fixed;
+    background-color: #0583F2;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 3vh 3vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,10 +51,8 @@ header {
 }
 
 header .logo {
-    font-size: 2em;
-    color: #fff;
-    font-weight: bolder;
-    text-transform: uppercase;
+    font-size: 1em;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -67,10 +66,9 @@ header .navigation li {
 }
 
 header .navigation li a {
-    color: #fff;
-    margin-left: 40px;
+    color: #FFFFFF;
+    margin-left: 7vh;
     text-decoration: none;
-    font-weight: bolder;
 }
 
 .content {
@@ -80,27 +78,27 @@ header .navigation li a {
 }
 
 .content h2 {
-    color: #fff;
+    color: #FFFFFF;
     font-size: 3em;
     line-height: 1em;
 }
 
 .content h2 span {
-    color: #fff;
+    color: #FFFFFF;
     font-size: 0.7em;
 }
 
 .content p {
-    color: #fff;
+    color: #FFFFFF;
     margin: 10px 0 20px;
 }
 
 .content a {
     padding: 10px 30px;
-    background: #fff;
+    background: #FFFFFF;
     display: inline-block;
     text-decoration: none;
-    color: #111;
+    color: #000000;
     border-radius: 50px;
 }
 
@@ -192,8 +190,8 @@ footer .social-media {
 
 #end-page { 
     padding: 10px;
-    background-color: black;
-    color:white;
+    background-color: #000000;
+    color:#FFFFFF;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 
@@ -206,8 +204,8 @@ footer .social-media {
 
 footer {
     width: 100%;
-    background: #1F00F5;
-    color: white;   
+    background: #0583F2;
+    color: #FFFFFF;   
     
 }
 
@@ -228,35 +226,40 @@ footer {
 }
 
 .colum1 h1 {
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 .colum1 p {
     font-size: 0.89em;
     color: #FFFFFF;
-    margin-top: 2em;
+    margin-top: 1.5em;
 }
 
 .container-footer {
     width: 100%;  
-    background: #1F00F5;
+    background: #0583F2;
 }
 
 .footer {
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;  
-    padding: 20px;
+    display: flex; 
+    padding: 1rem;
+    justify-content: space-around;
 }
 
 .copyright {
     color: #FFFFFF;
 }
 
-.information a {
+.politicy a {
     text-decoration: none;
     color: #FFFFFF;
+    transition: 1s;
+}
+
+.politicy a:hover {
+    color: #1F00F5;
 }
 
 @media screen and (max-width: 1100px) {
