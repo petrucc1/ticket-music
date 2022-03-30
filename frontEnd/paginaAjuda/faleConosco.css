@@ -28,12 +28,14 @@ a   {
 
 /* Imagens */
 
+.event-page {
+    display: flex;
+}
 
-.banner-event{
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-    z-index: 0;
+.banner-event {
+    position: relative;
+    height: 25%;
+    left: 65vh;
 }
 
 /*Container Principal*/
@@ -146,40 +148,34 @@ main{
     align-items: center;
     text-align: center;
     font-family: 'Roboto', 'Open Sans', sans-serif;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 5em;
 }
 
 .start-help h1{
-    font-size: 30px;
-
+    font-size: 2em;
 }
 .start-help P{
-    font-size: 13px;
-    margin-top: 13PX;
+    font-size: 0.9em;
+    margin-top: 2em;
 }
 
 .start-help img{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 4em 1em;
 }
 /*FORMULARIO*/
 
 
 .form-body{
-    width: 500px;
-    border-radius: 20px;
-    padding: 20px;
-    margin: auto;
-    margin-top: 40px;
+    width: 50%;
+    margin: 5em;
 }   
 
 fieldset {
     display: flex;
-    border: 0;
+    border: none;
 }
 
-.campo{
+.campo {
     margin-bottom: 1em;
 }
 
@@ -191,32 +187,22 @@ fieldset {
 fieldset.grupo .campo{
     float: left;
     margin-right: 1em;
+    text-align: center;
 }
 
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea, .campo input[type='tel']{
-    padding:0.2em;
-    border: 1px solid black;
-    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
     display: block;
-}
-
-.campo select option{
-    padding-right: 1em;
-}
-
-.campo input:focus, .campo select:focus, .campo textarea:focus{
-    padding-right: 1em;
+    border-radius: 8px;
+    padding: 0.5em;
+    outline: none;
+    border: none;
 }
 
 .botao input{
-    width: 80px;
-    height: 30px;
-    position: relative;
-    left: 0;
-    font-weight: bolder;
-    border-radius: 15px;
+    width: 10em;
+    height: 3em;
+    border-radius: 8px;
     cursor: pointer;
-    
 }
 
 
