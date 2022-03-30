@@ -12,7 +12,7 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
+    background: linear-gradient(#01B8F5, #04BF9D); /*Verificar qual cor vamos usar*/
     display: flex;
     justify-content: space-between;
     align-items: center;

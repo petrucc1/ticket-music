@@ -34,7 +34,6 @@ a   {
     width: 100%;
     object-fit: cover;
     z-index: 0;
-
 }
 
 /*Container Principal*/
@@ -42,7 +41,7 @@ a   {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
+    background: linear-gradient(#01B8F5, #04BF9D); /*Verificar qual cor vamos usar*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -261,7 +260,7 @@ footer .social-media{
 
 footer{
     width: 100%;
-    background: #202020;
+    background: #1F00F5;
     color: white;   
     
 }
@@ -344,7 +343,7 @@ footer{
 
 .container-footer{
     width: 100%;  
-    background: #101010;
+    background: #1F00F5;
 }
 
 .footer{

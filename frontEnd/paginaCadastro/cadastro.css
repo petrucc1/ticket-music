@@ -21,7 +21,7 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(#130A3D,#672550);
+    background: linear-gradient(#01B8F5, #04BF9D);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,7 +118,7 @@ nav {
 /* Estilização do body */
 .first-conteiner {
     display: block;
-    background-color: #130A3D;
+    /* background-color: #130A3D; */
     font-style: regular;
     font-size: 20px;
     border-radius: 60px;
