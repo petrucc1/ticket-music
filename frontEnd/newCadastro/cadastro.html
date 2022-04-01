@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="cadastro.css">
     <title>Tickect Music - Login </title>
 </head>
 
@@ -41,15 +41,24 @@
                 <div class="campo">
 
 
-                    <H1 class="texto"><strong> Conectar A Sua Conta </strong></H1>
-                    <form>
+                    <H1 class="texto"><strong> Cadastre-se </strong></H1>
+                    <form name = "cadastro"> 
                         <div class="formulario">
-                            <label for="username" class="login">Digite seu e-mail :</label>
-                            <input type="email" id="username" name="username" required class="caixa">
-                            <label for="pwd" class="login">Senha:</label>
-                            <input type="password" id="pwd" name="pwd" class="caixa">
+                            <label for="username" class="login">Digite seu nome:</label>
+                            <input type="name" id="name" name="nome" placeholder=""required class="caixa">
+                            <label for="text" name="cpf">Digite seu CPF:</label>
+                            <input type="int" id="number" name="cpf" \
+                                     pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
+                                     placeholder=""required class="caixa">
+                            <label for="email" class="email">Digite seu e-mail:</label>
+                            <input type="email" id="email" name="email" placeholder=""required class="caixa">  
+                            <label for="email" class="email">Digite seu telefone:</label>
+                            <input type="phone" id="phone" name="phone" placeholder=""required class="caixa""> 
+                            <label for="pwd" class="email">Digite sua senha:</label>
+                            <input type="password" id="password name="password" placeholder=""required class="caixa">            
+                                
                     </form>
-                    <button class="botao" type="button">Entrar</button>
+                    <button class="botao" type="submit">Cadastar</button>
                     </div>
                 </div>
 
