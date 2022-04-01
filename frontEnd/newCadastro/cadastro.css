@@ -11,15 +11,9 @@
 }
 /*Container Principal*/
 .sec {
-<<<<<<< HEAD:frontEnd/newCadastro/cadastro.css
     position: relative;
     width: 100%;
     min-height: 100vh;
-=======
-    position: fixed;
-    width: 300%;
-    min-height: 30vh;
->>>>>>> 20f8b15764b7a3e047a69e5dfc68338871841e0d:frontEnd/paginaEventos/eventos.css
     background: linear-gradient(#01B8F5, #04BF9D); /*Verificar qual cor vamos usar*/
     display: flex;
     justify-content: space-between;
