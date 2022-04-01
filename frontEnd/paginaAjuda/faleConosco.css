@@ -23,6 +23,7 @@ a {
     font-family: 'Roboto', 'Open Sans', sans-serif;
     align-items: center;
     cursor: pointer;
+    transition: 1s;
 }
 
 .event-page {
@@ -75,7 +76,7 @@ header .navigation li {
 }
 
 header .navigation li a {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     margin-left: 7vh;
     text-decoration: none;
 }
@@ -124,32 +125,44 @@ main {
 }
 
 .start-help {
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    text-align: start;
     font-family: 'Roboto', 'Open Sans', sans-serif;
-    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 .start-help h1 {
     font-size: 2em;
 }
+
 .start-help p {
     font-size: 0.9em;
     margin-top: 2em;
 }
 
-.start-help img {
+/* .start-help img {
     margin: 4em 1em;
-}
+} */
 
 .form-body {
     width: 50%;
-    margin: 5em;
-}   
+    margin-top: 4.3em;
+    margin-left: 13em;
+}
+
+form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
 
 fieldset {
     display: flex;
     border: none;
+    flex-direction: column;
 }
 
 .campo {
@@ -167,12 +180,24 @@ fieldset.grupo .campo {
     text-align: center;
 }
 
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea, .campo input[type='tel'] {
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo input[type='tel'] {
     display: block;
     border-radius: 8px;
     padding: 0.5em;
     outline: none;
     border: none;
+    height: 3em;
+    width: 20em;
+}
+
+.campo textarea {
+    display: block;
+    border-radius: 8px;
+    padding: 0.5em;
+    outline: none;
+    border: none;
+    height: 7em;
+    width: 20em;
 }
 
 .botao input {
@@ -180,21 +205,6 @@ fieldset.grupo .campo {
     height: 3em;
     border-radius: 8px;
     cursor: pointer;
-}
-
-body h4 {
-    margin-top: 15px;
-    font-family: 'Roboto', 'Open Sans', sans-serif;
-    align-items: center;
-    text-align: center;
-}
-
-footer .social-media {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 #end-page { 
