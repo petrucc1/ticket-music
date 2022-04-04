@@ -1,0 +1,14 @@
+{
+    "development": {
+      "username": "root",
+      "database": "ticket_music",
+      "host": "localhost",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "root",
+      "database": "ticket_music",
+      "host": "localhost",
+      "dialect": "mysql"
+    }
+  }

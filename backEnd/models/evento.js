@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize")
 const database = require("../database/index")
 
-const evento = database.define('eventos', {
+const evento = database.define('evento', {
     id_evento: {
         type: Sequelize.INTEGER,
         allowNull: false,
