@@ -3,15 +3,16 @@
 /* Fonte externa importada do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Julius+Sans+One&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  'Julius Sans One', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
-p{
+
+p {
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:white;
+    color: white;
 }
 
 
@@ -20,7 +21,8 @@ p{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
+    background: linear-gradient(#130A3D, #672550);
+    /*Verificar qual cor vamos usar*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,50 +108,74 @@ header .logo img {
 
 /*body e main */
 
-main{
+main {
     display: flex;
 }
 
-.campo{
-    font-size: 28px;
+
+.campo {
+    font-size: 24px;
     text-align: center;
     width: 30%;
-    color: #fff;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: auto;
-}
-.texto{
-    margin-bottom: 55px;
+    color: #fff;
+    border: 3px solid #ccc;
+    box-shadow: #202020;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
-.campo .formulario{
+.campo input {
+    width: 240px;
+}
+
+.texto {
+    margin-bottom: 55px;
+    padding: 5px;
+}
+
+.campo .formulario {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.login{
+
+.login {
     margin-bottom: 15px;
 }
 
-.caixa{
-    padding:5px;
+.caixa {
+    padding: 5px;
     border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.botao:hover{
-    background:#ccbbff;
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+.botao:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
-.botao{
+
+.botao {
     cursor: pointer;
     border-radius: 0.5rem;
     padding: 5px;
     width: 10rem;
-    margin:auto;
+    margin: auto;
     margin-top: 25px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
     font-size: 20px;
+    font-weight: bolder;
+}
+
+.linha {
+    margin-top: 30px;
 }
 
 /*Final do body*/
@@ -158,141 +184,139 @@ body h4 {
     margin-top: 15px;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 13px;
+    padding-top: 30px;
     align-items: center;
     text-align: center;
-    color:white;
+    color: white;
 }
+
 /*footer*/
 
 /*Configurações Footer Contatos*/
 
-footer{
+footer {
     width: 100%;
     background: #202020;
-    color: white;   
-    
+    color: white;
+
 }
 
-.container-footer-all{
+.container-footer-all {
     width: 100%;
     max-width: 1200px;
     margin: auto;
     padding: 40px;
 }
 
-.container-body{
+.container-body {
     display: flex;
     justify-content: space-between;
 }
 
-.colum1{
+.colum1 {
     max-width: 400px;
 }
 
-.colum1 h1{
+.colum1 h1 {
     font-size: 22px;
 }
 
-.colum1 p{
+.colum1 p {
     font-size: 14px;
     color: #C7C7C7;
     margin-top: 20px;
 }
 
-.colum2{
+.colum2 {
     max-width: 400px;
-    
+
 }
 
-.colum2 h1{
+.colum2 h1 {
     font-size: 22px;
 }
 
-.row{
+.row {
     margin-top: 20px;
     display: flex;
 }
 
-.row img{
+.row img {
     width: 36px;
     height: 36px;
 }
 
-.row label{
+.row label {
     margin-top: 10px;
     margin-left: 20px;
     color: #C7C7C7;
 }
 
-.colum3{
+.colum3 {
     max-width: 400px;
 }
 
-.colum3 h1{
+.colum3 h1 {
     font-size: 22px;
 }
 
-.row2{
+.row2 {
     margin-top: 20px;
     display: flex;
 }
 
-.row2 img{
+.row2 img {
     width: 36px;
     height: 36px;
 }
 
-.row2 label{
+.row2 label {
     margin-top: 10px;
     margin-left: 20px;
     max-width: 140px;
 }
 
-.container-footer{
-    width: 100%;  
+.container-footer {
+    width: 100%;
     background: #101010;
 }
 
-.footer{
+.footer {
     max-width: 1200px;
     margin: auto;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     padding: 20px;
 }
 
-.copyright{
+.copyright {
     color: #C7C7C7;
 }
 
-.copyright a{
+.copyright a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-.information a{
+.information a {
     text-decoration: none;
     color: #C7C7C7;
 }
 
 
-@media screen and (max-width: 1100px){
-    
-    .container-body{
+@media screen and (max-width: 1100px) {
+
+    .container-body {
         flex-wrap: wrap;
     }
-    
-    .colum1{
+
+    .colum1 {
         max-width: 100%;
     }
-    
+
     .colum2,
-    .colum3{
+    .colum3 {
         margin-top: 40px;
     }
 }
-
-
-
-
