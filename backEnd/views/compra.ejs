@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="backEnd/public/stylesheet/carrinho.css">
-    <link rel="shortcut icon" href="/frontEnd/images/solFavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../backEnd/public/stylesheets/compraEfetuada.css">
+    <link rel="shortcut icon" href="../../backEnd/public/images/solFavicon.png" type="image/x-icon">
     <title>Ticket Music</title>
 </head>
 
@@ -14,175 +14,179 @@
 
     <section class="sec">
         <!-- Cabeçalho -->
-    <header>
-        <a href="#" class="logo"><img src="/frontEnd/images/logo.png" alt="logo"></a>
-        <div class="toggleMenu" onclick="menuToggle();"></div>
-        <ul class="navigation">
-            <li><a href="http://localhost:3000/Home/">Home</a></li>
-            <li><a href="http://localhost:3000/login/">Login</a></li>
-            <li><a href="http://localhost:3000/carrinho/">Carrinho</a></li>
-            <li><a href="http://localhost:3000/ajuda/">Ajuda</a></li>
-        </ul>
-    </header>
+        <header>
+            <a href="#" class="logo"><img src="../../backEnd/public/images/logo.png" alt="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="http://localhost:3000/Home/">Home</a></li>
+                <li><a href="http://localhost:3000/login/">Login</a></li>
+                <li><a href="http://localhost:3000/carrinho/">Carrinho</a></li>
+                <li><a href="http://localhost:3000/ajuda/">Ajuda</a></li>
+            </ul>
+        </header>
 
-    <!-- Preenchimento dos Dados -->
+        <!-- Preenchimento dos Dados -->
 
-    <main>
-        <div class="container">
-            <section class="resumoDaCompra">
-                <h2>Resumo da compra</h2><br>
-                <h3>Nome do Evento</h3><br>
-                <hr color="black" size="3">
-                <table id="resumo">
-                    <tr>
-                        <td>N50</td>
-                        <td>Meia entrada</td>
-                        <td>R$ 50,00</td>
-                    </tr>
-                    <tr>
-                        <td>N51</td>
-                        <td>Inteira</td>
-                        <td>R$ 100,00</td>
-                    </tr>
-                </table>
-                <hr color="black" size="3"><br>
-                <div class="totalLine">
-                    <h2>Total</h2>
-                    <h2>R$ 150,00</h2>
-                </div>
-            </section>
-            <section class="formaDePagamento">
-                <h2>Forma de Pagamento</h2><br>
-                <h3>Escolha a forma de pagamento desejada:</h3><br>
-                <div class="howPay">
-                    <div>
-                        <input type="radio" id="PIX" name="howPay" value="Pix" <label for="Pix">Pix</label>
+        <main>
+            <div class="container">
+                <section class="resumoDaCompra">
+                    <h2>Resumo da compra</h2><br>
+                    <h3>Nome do Evento</h3><br>
+                    <hr color="black" size="3">
+                    <table id="resumo">
+                        <tr>
+                            <td>N50</td>
+                            <td>Meia entrada</td>
+                            <td>R$ 50,00</td>
+                        </tr>
+                        <tr>
+                            <td>N51</td>
+                            <td>Inteira</td>
+                            <td>R$ 100,00</td>
+                        </tr>
+                    </table>
+                    <hr color="black" size="3"><br>
+                    <div class="totalLine">
+                        <h2>Total</h2>
+                        <h2>R$ 150,00</h2>
                     </div>
-
-                    <div>
-                        <input type="radio" id="Cartão de Crédito" name="howPay" value="Cartão de Crédito" checked>
-                        <label for="Cartão de Crédito">Cartão de Crédito</label>
-                    </div>
-
-                    <div>
-                        <input type="radio" id="Boleto" name="howPay" value="Boleto" <label for="Boleto">Boleto</label>
-                    </div>
-
-                </div>
-                
-                <div class="dataPay">
-                    <h4> Entre com os dados do seu cartão de crédito: </h4>
-                    <form>
-                        <div class="infoCard">
-                            <label> Número do Cartão de Crédito:</label>
-                            <div class="inline">
-                                <input type="text" name="number" id="numeberCard" placeholder="XXXX" />
-                                <input type="text" name="number" id="numeberCard" placeholder="XXXX" />
-                                <input type="text" name="number" id="numeberCard" placeholder="XXXX" />
-                                <input type="text" name="number" id="numeberCard" placeholder="XXXX" />
-                            </div>
+                </section>
+                <section class="formaDePagamento">
+                    <h2>Forma de Pagamento</h2><br>
+                    <h3>Escolha a forma de pagamento desejada:</h3><br>
+                    <div class="howPay">
+                        <label>
+                            <input type="radio" id="PIX" name="howPay" value="Pix" for="Pix">Pix</label>
                         </div>
-                        <div class="infoCard">
-                            <label> Nome do titular do cartão:</label>
-                            <input type="text" name="name" id="nameCard" placeholder="Nome completo" />
+
+                        <div>
+                            <input type="radio" id="Cartão de Crédito" name="howPay" value="Cartão de Crédito" checked>
+                            <label for="Cartão de Crédito">Cartão de Crédito</label>
                         </div>
-                        <div class="inline2">
+
+                        <div>
+                            <input type="radio" id="Boleto" name="howPay" value="Boleto" for="Boleto">Boleto</label>
+                        </div>
+
+                    </div>
+
+                    <div class="dataPay">
+                        <h4> Entre com os dados do seu cartão de crédito: </h4>
+                        <form>
                             <div class="infoCard">
-                                <label> Validade do Cartão:</label>
-                                <div class="secureCode">
-                                    <input type="text" name="expiry" id="expireCard" placeholder="MM/AAAA" />
+                                <label> Número do Cartão de Crédito:</label>
+                                <div class="inline">
+                                    <input type="text" name="number" id="numeberCard" placeholder="XXXX" />
+                                    <input type="text" name="number" id="numeberCard" placeholder="XXXX" />
+                                    <input type="text" name="number" id="numeberCard" placeholder="XXXX" />
+                                    <input type="text" name="number" id="numeberCard" placeholder="XXXX" />
                                 </div>
                             </div>
                             <div class="infoCard">
-                                <label> Código de Segurança:</label>
-                                <div class="secureCode">
-                                    <input type="text" name="cvv" id="cvvCard" placeholder="CVV" />
+                                <label> Nome do titular do cartão:</label>
+                                <input type="text" name="name" id="nameCard" placeholder="Nome completo" />
+                            </div>
+                            <div class="inline2">
+                                <div class="infoCard">
+                                    <label> Validade do Cartão:</label>
+                                    <div class="secureCode">
+                                        <input type="text" name="expiry" id="expireCard" placeholder="MM/AAAA" />
+                                    </div>
+                                </div>
+                                <div class="infoCard">
+                                    <label> Código de Segurança:</label>
+                                    <div class="secureCode">
+                                        <input type="text" name="cvv" id="cvvCard" placeholder="CVV" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="inline2">
-                            <div class="cpfCard">
-                                <label> CPF do Titular do Cartão:</label>
-                                <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00" />
+                            <div class="inline2">
+                                <div class="cpfCard">
+                                    <label> CPF do Titular do Cartão:</label>
+                                    <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00" />
+                                </div>
+                                <div id="send">
+                                    <input id="bt" type="submit" value="Finalizar compra" />
+                                </div>
                             </div>
-                            <div id="send">
-                                <input id="bt" type="submit" value="Finalizar compra" />
-                            </div>
-                        </div>
 
-                    </form>
-                    <br>
-                </div>
-            </section>
-        </div>
-        <div id="aceite"> </div>
-        <div class="aceite">
-            <input type="checkbox" name="aceite" value="aceite" checked <label for="aceite"> Eu li e concordo com os Termos de
-            Uso. Todas as compras estão sujeitas a aprovação. Em caso de dúvidas acesse nossa central de ajuda.</label>
-        </div>
+                        </form>
+                        <br>
+                    </div>
+                </section>
+            </div>
+            <div id="aceite"> </div>
+            <div class="aceite">
+                <input type="checkbox" name="aceite" value="aceite" checked  for="aceite"> Eu li e concordo com os
+                Termos de
+                Uso. Todas as compras estão sujeitas a aprovação. Em caso de dúvidas acesse nossa central de
+                ajuda.</label>
+            </div>
 
-    </main>
+        </main>
     </section>
 
     <footer>
-       
+
         <div class="container-footer-all">
-         
-             <div class="container-body">
-    
-                 <div class="colum1">
-                     <h1>Mais Informações</h1>
-    
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nihil adipisci accusamus voluptatum nobis aut laborum ut asperiores, 
-                    minus reiciendis dignissimos! Expedita optio assumenda animi id vero totam, quod rerum porro.</p>
-    
-                 </div>
-    
-                 <div class="colum2">
-    
-                     <h1>Redes Sociais</h1>
-    
-                     <div class="row">
-                         <img src="/frontEnd/images/facebook.png">
-                         <label>Nos Siga no Facebook</label>
-                     </div>
-                     <div class="row">
-                         <img src="/frontEnd/images/twitter.png">
-                         <label>Nos Siga no Twitter</label>
-                     </div>
-                     <div class="row">
-                         <img src="/frontEnd/images/insta.png">
-                         <label>Nos Siga no Instagram</label>
-                     </div>
-    
-    
-                 </div>
-    
-                 <div class="colum3">
-    
-                     <h1>Contatos</h1>
-                 
-                 </div>
-    
-             </div>
-         
-         </div>
-         
-         <div class="container-footer">
-                <div class="footer">
-                     <div class="copyright">
-                         © 2021 Ticket Music - Todos os Direitos Reservados
-                     </div>
-    
-                     <div class="information">
-                         <a href="">Informações Da Compania</a> | <a href="">Privacidades e Politicas</a> | <a href="">Termos e Condições</a>
-                     </div>
-                 </div>
-    
-             </div>
-         
-     </footer>
+
+            <div class="container-body">
+
+                <div class="colum1">
+                    <h1>Mais Informações</h1>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nihil adipisci accusamus voluptatum nobis aut laborum ut asperiores,
+                        minus reiciendis dignissimos! Expedita optio assumenda animi id vero totam, quod rerum porro.
+                    </p>
+
+                </div>
+
+                <div class="colum2">
+
+                    <h1>Redes Sociais</h1>
+
+                    <div class="row">
+                        <img src="../../backEnd/public/images/facebook.png">
+                        <label>Nos Siga no Facebook</label>
+                    </div>
+                    <div class="row">
+                        <img src="../../backEnd/public/images/twitter.png">
+                        <label>Nos Siga no Twitter</label>
+                    </div>
+                    <div class="row">
+                        <img src="../../backEnd/public/images/insta.png">
+                        <label>Nos Siga no Instagram</label>
+                    </div>
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Contatos</h1>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-footer">
+            <div class="footer">
+                <div class="copyright">
+                    © 2021 Ticket Music - Todos os Direitos Reservados
+                </div>
+
+                <div class="information">
+                    <a href="">Informações Da Compania</a> | <a href="">Privacidades e Politicas</a> | <a href="">Termos
+                        e Condições</a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
 
 </body>
 
