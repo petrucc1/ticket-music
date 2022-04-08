@@ -1,179 +1,140 @@
 <!DOCTYPE html>
 <html lang="pt-bt">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../backEnd/public/stylesheets/cadastro.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Rajdhani:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="shortcut icon"
-      href="images/solFavicon.png"
-      type="image/x-icon"
-    />
-    <title>Ticketmusic</title>
-  </head>
 
-  <body class="main">
-    <section class="sec">
-      <!-- Cabeçalho -->
-      <header>
-        <a href="http://localhost:3000/Home/" class="logo"><img src="images/logo.png" alt='À esquerda há uma clave de Sol, que é um símbolo musical, e à direita dela está escrito "Ticket Music"'></a>
-        <div class="toggleMenu" onclick="menuToggle();"></div>
-        <ul class="navigation">
-<<<<<<< HEAD
-          <li><a href="http://localhost:3000/Home/">Home</a></li>
-          <li><a href="http://localhost:3000/login/">Login</a></li>
-          <li><a href="http://localhost:3000/carrinho/">Carrinho</a></li>
-          <li><a href="http://localhost:3000/ajuda/">Ajuda</a></li>
-=======
-          <li><a href="http://localhost:3000/Home/" tabindex="1">Home</a></li>
-          <li><a href="http://localhost:3000/eventos/" tabindex="2">Eventos</a></li>
-          <li><a href="http://localhost:3000/login/" tabindex="3">Login</a></li>
-          <li><a href="http://localhost:3000/cadastro/" tabindex="4">Cadastro</a></li>
-          <li><a href="http://localhost:3000/carrinho/" tabindex="5">Carrinho</a></li>
-          <li><a href="http://localhost:3000/ajuda/" tabindex="6">Ajuda</a></li>
->>>>>>> 20f8b15764b7a3e047a69e5dfc68338871841e0d
-        </ul>
-      </header>
-      <!-- Corpo -->
-      <div class="first-conteiner">
-        
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../backEnd/public/stylesheets/cadastro.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Rajdhani:wght@700&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="../public/images/solFavicon.png" type="image/x-icon" />
+  <title>Ticketmusic</title>
+</head>
 
-        <img
-          id="first-div-image"
-          src="https://blush.design/api/download?shareUri=4sKSi3XHJR35rlIS&c=Hair_0%7E870cf7-0.1%7E0519fc-0.2%7E870cf7-0.3%7E0519fc-0.4%7E870cf7_Skin_0%7Eaf5b27-0.1%7Effcba7-0.2%7Ee7915c-0.3%7Ee7915c-0.4%7Eaf5b27_Top_0%7Effa200-0.1%7Eff7475-0.2%7Eff0c0c-0.3%7Effa200-0.4%7Eff7475&w=800&h=800&fm=png"
-          alt="Figura de pessoas conversando"
-        />
-        <!-- Área do login -->
-        <div class="second-conteiner">
-          <p class="title1">
-            Encontre o Evento Perfeito Para Sua Noite
-          </p>
-          <form action="">
-            <fieldset>
-              <div class="third-container">
-                <h1 class="first-title">Criar conta</h1>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Nome completo"
-                  required
-                />
-              </div>
-              <hr />
+<body class="main">
+  <section class="sec">
+    <!-- Cabeçalho -->
+    <header>
+      <a href="http://localhost:3000/Home/" class="logo"><img src="../public/images/logo.png"
+          alt='À esquerda há uma clave de Sol, que é um símbolo musical, e à direita dela está escrito "Ticket Music"' /></a>
+      <div class="toggleMenu" onclick="menuToggle();"></div>
+      <ul class="navigation">
 
-              <div>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="E-mail"
-                  required
-                />
-              </div>
-              <hr />
+        <li><a href="http://localhost:3000/Home/" tabindex="1">Home</a></li>
 
-              <div>
-                <input
-                  type="password"
-                  id="password"
-                  name="password"
-                  placeholder="Senha"
-                  required
-                />
-              </div>
-              <hr />
+        <li><a href="http://localhost:3000/login/" tabindex="3">Login</a></li>
 
-              <!-- CPF terá que ser validado em breve com JS e testes -->
-              <div>
-                <input
-                  oninput="mascara(this)"
-                  id="cpf"
-                  name="cpf"
-                  type="text"
-                  placeholder="CPF"
-                  required
-                />
-              </div>
-              <hr />
-            </fieldset>
-          </form>
-          <!-- Área dos Termos e Condições -->
-          <p class="terms">
-            Clicando em continuar você concorda com nossos
-            <a href="#"><strong>Termos de Serviço</strong></a> e com nossas
-            <a href=""><strong>Políticas de Privacidade</strong></a>
-          </p>
-          <!-- Botão -->
-          <button>Continuar</button>
+        <li>
+          <a href="http://localhost:3000/carrinho/" tabindex="5">Carrinho</a>
+        </li>
+        <li><a href="http://localhost:3000/ajuda/" tabindex="6">Ajuda</a></li>
+      </ul>
+    </header>
+    <!-- Corpo -->
+    <div class="first-conteiner">
+      <img id="first-div-image"
+        src="https://blush.design/api/download?shareUri=4sKSi3XHJR35rlIS&c=Hair_0%7E870cf7-0.1%7E0519fc-0.2%7E870cf7-0.3%7E0519fc-0.4%7E870cf7_Skin_0%7Eaf5b27-0.1%7Effcba7-0.2%7Ee7915c-0.3%7Ee7915c-0.4%7Eaf5b27_Top_0%7Effa200-0.1%7Eff7475-0.2%7Eff0c0c-0.3%7Effa200-0.4%7Eff7475&w=800&h=800&fm=png"
+        alt="Figura de pessoas conversando" />
+      <!-- Área do login -->
+      <div class="second-conteiner">
+        <p class="title1">Encontre o Evento Perfeito Para Sua Noite</p>
+        <form action="">
+          <fieldset>
+            <div class="third-container">
+              <h1 class="first-title">Criar conta</h1>
+              <input type="text" id="name" name="name" placeholder="Nome completo" required />
+            </div>
+            <hr />
 
-          <h3 class="second-title">
-            Já tem uma conta? <a href="../paginaLogin/login.html">Faça login</a>
-          </h3>
-          <!-- Redes sociais serão inseridas em breve na tecnologia JS -->
-        </div>
-      </div>
-    </section>
-  </body>
+            <div>
+              <input type="email" id="email" name="email" placeholder="E-mail" required />
+            </div>
+            <hr />
 
-  <footer>
-    <div class="container-footer-all">
-      <div class="container-body">
-        <div class="colum1">
-          <h1>Mais Informações</h1>
+            <div>
+              <input type="password" id="password" name="password" placeholder="Senha" required />
+            </div>
+            <hr />
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-            adipisci accusamus voluptatum nobis aut laborum ut asperiores, minus
-            reiciendis dignissimos! Expedita optio assumenda animi id vero
-            totam, quod rerum porro.
-          </p>
-        </div>
+            <!-- CPF terá que ser validado em breve com JS e testes -->
+            <div>
+              <input oninput="mascara(this)" id="cpf" name="cpf" type="text" placeholder="CPF" required />
+            </div>
+            <hr />
+          </fieldset>
+        </form>
+        <!-- Área dos Termos e Condições -->
+        <p class="terms">
+          Clicando em continuar você concorda com nossos
+          <a href="#"><strong>Termos de Serviço</strong></a> e com nossas
+          <a href=""><strong>Políticas de Privacidade</strong></a>
+        </p>
+        <!-- Botão -->
+        <button>Continuar</button>
 
-        <div class="colum2">
-          <h1>Nossas Redes Sociais</h1>
-
-          <div class="row">
-            <img src="images/facebook.png" />
-            <label>Nos Siga no Facebook</label>
-          </div>
-
-          <div class="row">
-            <img src="images/twitter.png" />
-            <label>Nos Siga no Twitter</label>
-          </div>
-
-          <div class="row">
-            <img src="images/insta.png" />
-            <label>Nos Siga no Instagram</label>
-          </div>
-        </div>
-
-        <div class="colum3">
-          <h1>Contatos</h1>
-        </div>
+        <h3 class="second-title">
+          Já tem uma conta? <a href="../paginaLogin/login.html">Faça login</a>
+        </h3>
+        <!-- Redes sociais serão inseridas em breve na tecnologia JS -->
       </div>
     </div>
+  </section>
+</body>
 
-    <div class="container-footer">
-      <div class="footer">
-        <div class="copyright">
-          © 2021 Ticket Music - Todos os Direitos Reservados
+<footer>
+  <div class="container-footer-all">
+    <div class="container-body">
+      <div class="colum1">
+        <h1>Mais Informações</h1>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+          adipisci accusamus voluptatum nobis aut laborum ut asperiores, minus
+          reiciendis dignissimos! Expedita optio assumenda animi id vero
+          totam, quod rerum porro.
+        </p>
+      </div>
+
+      <div class="colum2">
+        <h1>Nossas Redes Sociais</h1>
+
+        <div class="row">
+          <img src="../../backEnd/public/images/facebook.png" />
+          <label>Nos Siga no Facebook</label>
         </div>
 
-        <div class="information">
-          <a href="#">Informações Da Companhia</a> |
-          <a href="#">Termos de Serviço</a> |
-          <a href="#">Políticas de Privacidade</a>
+        <div class="row">
+          <img src="../../backEnd/public/images/twitter.png" />
+          <label>Nos Siga no Twitter</label>
+        </div>
+
+        <div class="row">
+          <img src="../../backEnd/public/images/insta.png" />
+          <label>Nos Siga no Instagram</label>
         </div>
       </div>
+
+      <div class="colum3">
+        <h1>Contatos</h1>
+      </div>
     </div>
-  </footer>
+  </div>
+
+  <div class="container-footer">
+    <div class="footer">
+      <div class="copyright">
+        © 2021 Ticket Music - Todos os Direitos Reservados
+      </div>
+
+      <div class="information">
+        <a href="#">Informações Da Companhia</a> |
+        <a href="#">Termos de Serviço</a> |
+        <a href="#">Políticas de Privacidade</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
 </html>
