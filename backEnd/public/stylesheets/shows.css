@@ -13,14 +13,14 @@ p{
 
 /*Container Principal*/
 .sec {
-    position: fixed;
-    width: 300%;
-    min-height: 30vh;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
     background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px;
+    padding: 100px;
 }
 
 header {
@@ -86,17 +86,20 @@ header .navigation li a {
 
 /*Logo*/
 header .logo img {
-    width: 160px;
-    position: static;
-    top: 0px;
-    left: 0px;
-    margin: 0px;
-    padding: 0px;
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    padding: 0;
+    
 }
 
 
 main{
     display: flex;
+    padding: 0;
 }
 
 /* INFORMAÇÕES  */
@@ -114,9 +117,13 @@ main{
 
 /*BANNER EVENTO */
 
+.show-page {
+    background: #fff;
+    margin-top: 50px;
+}
+
 .show-page img {
     position: 10px;
-    margin-top: 252px;
     left: 0px;
     right: 0px;
     width: 100%;
@@ -125,7 +132,6 @@ main{
 
 /* DESCRIÇÕES */
 .descricao-conteiner {
-
     margin-top: 0px;
     align-items: center;
     padding: 50px;
@@ -159,11 +165,11 @@ main{
 }
 
 
-#esquerda img{
-    height:50%1;
+#esquerda img {
+    height: 50%;
     object-fit: cover; 
     padding: auto;
-    width:50vh ;
+    width: 50vh ;
     max-width: 100%;
     margin-left: 160px;
     
@@ -205,6 +211,11 @@ main{
     margin-right: 25px;
 }
 
+#direita button:hover{
+    transition-duration: 0.4s;
+    background: green;
+}
+
 #direita button{
     background:    #672550;
     border:        1px solid #000000;
@@ -215,6 +226,7 @@ main{
     font:          normal bold 16px/1  'Julius Sans One', sans-serif;
     text-align:    center;
     text-shadow:   3px 3px #000000;
+    cursor: pointer;
 }
 
 
