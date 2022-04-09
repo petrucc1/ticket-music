@@ -105,6 +105,10 @@ header .logo img {
     margin: 10px;
 }
 
+footer .informacao {
+    text-align: justify;
+}
+
 /*Responsivo*/
 
 @media(max-width: 991px){
