@@ -277,8 +277,23 @@ form select:hover {
     display: flex;
     justify-content: space-between;
 }
-.aceite {
-    text-align: center;
+.aceite p, input {
+    text-align: justify;
+    justify-content: center;
+}
+
+.aceite input {
+    position: relative;
+    left: 45%;
+    margin-top: 20px;
+    padding: 200px;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+    cursor: pointer;
+
+    min-width: 20px;
+    min-height: 20px;
+    margin-right: 5px;
 }
 
 /*Configurações Footer Contatos*/
