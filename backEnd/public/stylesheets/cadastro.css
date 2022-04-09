@@ -1,18 +1,19 @@
 /* Fonte externa importada do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Julius+Sans+One&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  'Julius Sans One', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
-p{
+
+p {
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Estilização do header */
-*{
+* {
     font-family: 'Julius Sans One', sans-serif;
     margin: 0px;
     padding: 0px;
@@ -24,7 +25,7 @@ p{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(#130A3D,#672550);
+    background: linear-gradient(#130A3D, #672550);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -116,7 +117,7 @@ nav {
     padding: 10px;
     height: 80px;
     font-size: 50px;
-    }
+}
 
 /* Estilização do body */
 .first-conteiner {
@@ -131,7 +132,7 @@ nav {
 
 .first-paragraph {
     background-color: #130A3D;
-    color:#FFFFFF;
+    color: #FFFFFF;
     position: absolute;
     left: 57%;
     top: 20%;
@@ -148,10 +149,10 @@ nav {
 }
 
 .second-conteiner {
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     position: absolute;
     top: 20%;
@@ -160,9 +161,10 @@ nav {
     height: 400px;
     padding: 20px;
     border-radius: 15px;
-    border:solid 2px;
-    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.596);
+    border: solid 2px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.596);
     z-index: 1;
+
 }
 
 .second-conteiner .title1 {
@@ -187,8 +189,18 @@ fieldset {
     border: none;
 }
 
-#name, #email, #password, #confirm-password, #cpf, #date {
-    color: #9B5666;
+fieldset input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#name,
+#email,
+#password,
+#confirm-password,
+#cpf,
+#date {
+    color: black;
     border: none;
     outline: none;
 }
@@ -199,6 +211,7 @@ fieldset {
     position: absolute;
     padding: 10px;
     top: 85%;
+    font-size: 12px;
     text-align: center;
 }
 
@@ -228,24 +241,24 @@ p {
 
 /* Estilização do botão */
 
-.button {margin-top:14vh}
+.button {
+    margin-top: 14vh
+}
 
 button {
     color: #FFFFFF;
     background-color: #130A3D;
     border-radius: 30px;
-    padding: 0.5%;
-    margin: 0;
+    padding: 5px;
     position: absolute;
     top: 78%;
-    
     cursor: pointer;
 }
 
 button:hover {
     color: #FFFFFF;
     background-color: #672550;
-    transition: 3s;
+    transition-duration: 0.4s;
 }
 
 /*Configurações Footer Contatos*/
@@ -253,8 +266,8 @@ button:hover {
 footer {
     width: 100%;
     background: #202020;
-    color: white;   
-    
+    color: white;
+
 }
 
 .container-footer-all {
@@ -285,7 +298,7 @@ footer {
 
 .colum2 {
     max-width: 400px;
-    
+
 }
 
 .colum2 h1 {
@@ -333,7 +346,7 @@ footer {
 }
 
 .container-footer {
-    width: 100%;  
+    width: 100%;
     background: #101010;
 }
 
@@ -341,7 +354,7 @@ footer {
     max-width: 1200px;
     margin: auto;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     padding: 20px;
 }
 
@@ -363,24 +376,25 @@ footer {
 
 input {
     width: 250px;
-     
+
 }
 
 /*Footer*/
 
 @media screen and (max-width: 1100px) {
-    
+
     .container-body {
         flex-wrap: wrap;
     }
-    
+
     .colum1 {
         max-width: 100%;
     }
-    
-    .colum2, .colum3 {
+
+    .colum2,
+    .colum3 {
         margin-top: 40px;
     }
 
-    
+
 }
