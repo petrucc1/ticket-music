@@ -1,5 +1,4 @@
 const usuario = require('../models/usuario')
-const axios = require('axios').default;
 
 async function create(req, res) {
   try {
