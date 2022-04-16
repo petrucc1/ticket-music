@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <section class="sec">
+
         <!-- Cabeçalho -->
-        <header>
+    <header>
             <a href="../paginaHome/home.html" class="logo"><img src="/frontEnd/images/logo.png"></a>
             <div class="toggleMenu" onclick="menuToggle();"></div>
             <ul class="navigation">
@@ -21,40 +21,27 @@
                 <li><a href="../paginaCadastro/cadastro.html" tabindex="2">Login</a></li>
                 <li><a href="../paginaCarrinho/carrinho.html" tabindex="4">Carrinho</a></li>
             </ul>
-        </header>
+    </header>
 
-        <!-- Texto De A presentação -->
-        <div class="content">
-            <div class="textBx">
-                <h2>
-                    Venha curtir sua vibe <br />
-                    <span>Ticket Music</span>
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rem et repellendus eligendi repellat expedita nobis quis aut nemo dicta explicabo, iste reiciendis, quo placeat recusandae voluptatum? A, possimus facilis.
-                </p>
-                <br />
-            </div>
-        </div>
-
-        <!-- Imagem da Nota -->
-        <img src="/frontEnd/images/novaNota.png" class="nota" />
-    </section>
+    <section class="sec">
+        <h1> Os melhores shows e eventos você encontra na ticketmusic </h1>
+    </section>    
 
     <section class="shows">
-        <table>
-            <tr>
-                <td><img src="/frontEnd/images/1.png">Sepultura</td>
-                <td><img src="/frontEnd/images/2.png">Pixote</td>
-                <td><img src="/frontEnd/images/3.png">Justin</td>
-            </tr>
-            <tr>
-                <td><img src="/frontEnd/images/4.png">Anitta</td>
-                <td><img src="/frontEnd/images/5.png">Ludmilla</td>
-                <td><img src="/frontEnd/images/6.png">Patati Patatá Circo Show</td>
-            </tr>
-        </table>
+        <div class="section group">
+            <div class="col span_1_of_2">
+            <a href="/frontEnd/paginaShows/01showSepultura/01showSepultura.html"> <img src="/frontEnd/images/show1.jpg"></a>   
+            <a href="/frontEnd/paginaShows/02ShowPixote/02ShowPixote.html"> <img src="/frontEnd/images/show2.jpg"></a>  
+            <a href="/frontEnd/paginaShows/03ShowJustin/03ShowJustin.html"> <img src="/frontEnd/images/show3.jpg"></a>  
+            </div>
+            <div class="col span_1_of_2">
+            <a href="/frontEnd/paginaShows/04ShowAnitta/04ShowAnitta.html"> <img src="/frontEnd/images/show4.jpg"></a>  
+            <a href="/frontEnd/paginaShows/05ShowLudmilla/05ShowLudmilla.html"> <img src="/frontEnd/images/show5.jpg"></a>  
+            <a href="/frontEnd/paginaShows/06ShowPatatiPatata/06ShowPatatiPatata.html"> <img src="/frontEnd/images/show6.jpg"></a>  
+            </div>
+        </div>
     </section>
+  
     
 
     <!-- Script dos botoes de menu quando site fica menor -->
