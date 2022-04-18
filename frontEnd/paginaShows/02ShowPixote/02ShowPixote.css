@@ -7,9 +7,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
-p{
-    font-family: 'Roboto', 'Open Sans', sans-serif;
-}
+
 
 /*Container Principal*/
 .sec {
@@ -105,7 +103,6 @@ main{
 }
 .info-conteiner h1 {
     font-size: 30px;
-
 }
 .info-conteiner p {
     font-family: 'Roboto', 'Open Sans', sans-serif;
@@ -161,10 +158,10 @@ main{
 
 
 #esquerda img{
-    height:50%1;
-    object-fit: cover; 
-    padding: auto;
-    width:50vh ;
+    height:100%;
+    margin-top:0%;
+    padding: 0;
+    width: 500px;
     max-width: 100%;
     margin-left: 160px;
     
@@ -234,6 +231,7 @@ footer{
     width: 100%;
     background: #202020;
     color: white;   
+    margin-top: 80px;
     
 }
 
