@@ -8,20 +8,13 @@
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 
-/* Estilização do header */
-*{
-    font-family: 'Roboto', 'Open Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+
 
 /*Container Principal*/
 .sec {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(#01B8F5, #04BF9D);
     display: flex;
     justify-content: space-between;
     align-items: center;

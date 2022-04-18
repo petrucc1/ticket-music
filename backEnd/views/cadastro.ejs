@@ -4,19 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="../../backEnd/public/stylesheets/cadastro.css"
-    />
+    <link rel="stylesheet" href="../../backEnd/public/stylesheets/cadastro.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Rajdhani:wght@700&display=swap"
-      rel="stylesheet"
-    />
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Rajdhani:wght@700&display=swap" rel="stylesheet">
     <link
       rel="shortcut icon"
-      href="../public/images/solFavicon.png"
+      href="images/solFavicon.png"
       type="image/x-icon"
     />
     <title>Ticketmusic</title>
@@ -26,25 +21,19 @@
     <section class="sec">
       <!-- Cabeçalho -->
       <header>
-        <a href="http://localhost:3000/Home/" class="logo"
-          ><img
-            src="../public/images/logo.png"
-            alt='À esquerda há uma clave de Sol, que é um símbolo musical, e à direita dela está escrito "Ticket Music"'
-        /></a>
+        <a href="../paginaHome/home.html" class="logo"><img src="images/logo.png" alt='À esquerda há uma clave de Sol, que é um símbolo musical, e à direita dela está escrito "Ticket Music"'></a>
         <div class="toggleMenu" onclick="menuToggle();"></div>
         <ul class="navigation">
-          <li><a href="http://localhost:3000/Home/" tabindex="1">Home</a></li>
-
-          <li><a href="http://localhost:3000/login/" tabindex="3">Login</a></li>
-
-          <li>
-            <a href="http://localhost:3000/carrinho/" tabindex="5">Carrinho</a>
-          </li>
-          <li><a href="http://localhost:3000/ajuda/" tabindex="6">Ajuda</a></li>
+          <li><a href="../paginaHome/home.html" tabindex="0">Início</a></li>
+          <li><a href="../paginaLogin/login.html" tabindex="2">Login</a></li>
+          <li><a href="../paginaCarrinho/carrinho.html" tabindex="4">Carrinho</a></li>
+          <li><a href="../paginaAjuda/faleConosco.html" tabindex="5">Ajuda</a></li>
         </ul>
       </header>
       <!-- Corpo -->
       <div class="first-conteiner">
+        
+
         <img
           id="first-div-image"
           src="https://blush.design/api/download?shareUri=4sKSi3XHJR35rlIS&c=Hair_0%7E870cf7-0.1%7E0519fc-0.2%7E870cf7-0.3%7E0519fc-0.4%7E870cf7_Skin_0%7Eaf5b27-0.1%7Effcba7-0.2%7Ee7915c-0.3%7Ee7915c-0.4%7Eaf5b27_Top_0%7Effa200-0.1%7Eff7475-0.2%7Eff0c0c-0.3%7Effa200-0.4%7Eff7475&w=800&h=800&fm=png"
@@ -52,7 +41,9 @@
         />
         <!-- Área do login -->
         <div class="second-conteiner">
-          <p class="title1">Encontre o Evento Perfeito Para Sua Noite</p>
+          <p class="title1">
+            Encontre o evento perfeito para sua noite
+          </p>
           <form action="">
             <fieldset>
               <div class="third-container">
@@ -89,7 +80,7 @@
               </div>
               <hr />
 
-              <!-- CPF terá que ser validado em breve com JS e testes -->
+            
               <div>
                 <input
                   oninput="mascara(this)"
@@ -139,17 +130,17 @@
           <h1>Nossas Redes Sociais</h1>
 
           <div class="row">
-            <img src="../../backEnd/public/images/facebook.png" />
+            <img src="images/facebook.png" />
             <label>Nos Siga no Facebook</label>
           </div>
 
           <div class="row">
-            <img src="../../backEnd/public/images/twitter.png" />
+            <img src="images/twitter.png" />
             <label>Nos Siga no Twitter</label>
           </div>
 
           <div class="row">
-            <img src="../../backEnd/public/images/insta.png" />
+            <img src="images/insta.png" />
             <label>Nos Siga no Instagram</label>
           </div>
         </div>

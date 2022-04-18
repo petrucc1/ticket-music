@@ -1,26 +1,24 @@
 /* Fonte externa importada do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Alice&family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
 }
-p{
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 
 /*Container Principal*/
 .sec {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
+    position: fixed;
+    width: 300%;
+    min-height: 30vh;
     background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px;
+    padding: 60px;
 }
 
 header {
@@ -86,20 +84,17 @@ header .navigation li a {
 
 /*Logo*/
 header .logo img {
-    width: 120px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 10px;
-    padding: 0;
-    
+    width: 160px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 
 main{
     display: flex;
-    padding: 0;
 }
 
 /* INFORMAÇÕES  */
@@ -110,20 +105,16 @@ main{
     font-size: 30px;
 }
 .info-conteiner p {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
     font-size: 15px;
 }
 
 
 /*BANNER EVENTO */
 
-.show-page {
-    background: #fff;
-    margin-top: 50px;
-}
-
 .show-page img {
     position: 10px;
+    margin-top: 252px;
     left: 0px;
     right: 0px;
     width: 100%;
@@ -132,6 +123,7 @@ main{
 
 /* DESCRIÇÕES */
 .descricao-conteiner {
+
     margin-top: 0px;
     align-items: center;
     padding: 50px;
@@ -165,11 +157,11 @@ main{
 }
 
 
-#esquerda img {
-    height: 50%;
-    object-fit: cover; 
-    padding: auto;
-    width: 50vh ;
+#esquerda img{
+    height:100%;
+    margin-top:0%;
+    padding: 0;
+    width: 500px;
     max-width: 100%;
     margin-left: 160px;
     
@@ -211,11 +203,6 @@ main{
     margin-right: 25px;
 }
 
-#direita button:hover{
-    transition-duration: 0.4s;
-    background: green;
-}
-
 #direita button{
     background:    #672550;
     border:        1px solid #000000;
@@ -226,7 +213,6 @@ main{
     font:          normal bold 16px/1  'Julius Sans One', sans-serif;
     text-align:    center;
     text-shadow:   3px 3px #000000;
-    cursor: pointer;
 }
 
 
