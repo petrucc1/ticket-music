@@ -41,6 +41,6 @@ module.exports = {
     },
 
     down: async (queryInterface) => {
-        return queryInterface.dropTable("clientes");
+        return queryInterface.dropTable("cadastro");
     },
 };
