@@ -49,28 +49,48 @@ header .navigation li a {
     font-weight: bolder;
 }
 
+header .navigation li:hover {
+    transform: scale(1.5);
+}
+
 .sec{
     margin-top: 100px ;
-    padding: 100px;
+    padding: 30px;
     color:#672550;
     text-align: center;
 }
 
 .shows {
-    margin-top: 20px;
-    z-index: 1;
-    margin-left: 100px;
-    padding: 50px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
     
 }
 
+.col_span_1_of_2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.col_span_1_of_2 img{
+    padding-bottom: 10px;
+    max-width: 100%;
+	transition: all 0.3s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
 /*Ainda nao Definido*/
 header .logo img {
     width: 120px;
     position: absolute;
     top: 0;
     left: 0;
-    margin: 10px;
 }
 
 
@@ -81,6 +101,7 @@ table{
     z-index: 1;
  
 }
+
 
 /*Responsivo*/
 
@@ -118,7 +139,7 @@ table{
         position: relative;
         width: 30px;
         height: 30px;
-        background: url(../../assets/images/menu.png);
+        background: url(images/menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
@@ -130,7 +151,7 @@ table{
         position: fixed;
         right: 40px;
         top: 20px;
-        background: url(../../assets/images/close.png);
+        background: url(images/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
