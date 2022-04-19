@@ -1,25 +1,15 @@
 /* Fonte externa importada do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 
-
 /*Container Principal*/
-.sec {
-    position: fixed;
-    width: 300%;
-    min-height: 30vh;
-    background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px;
-}
+
 
 header {
     position: fixed;
@@ -31,6 +21,15 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+    background: linear-gradient(#130A3D, #672550);
+}
+
+header .logo {
+    font-size: 2em;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 /*Sentido do cabeçalho*/
@@ -48,62 +47,41 @@ header .navigation li a {
     margin-left: 40px;
     text-decoration: none;
     font-weight: bolder;
-    font-size: 18px;
 }
 
-.content {
-    position: relative;
-    max-width: 600px;
-    z-index: 1;
+header .navigation li:hover {
+    transform: scale(1.5);
 }
 
-.content h2 {
-    color: #fff;
-    font-size: 3em;
-    line-height: 1em;
-}
-
-.content h2 span {
-    color: #fff;
-    font-size: 0.7em;
-}
-
-.content p {
-    color: #fff;
-    margin: 10px 0 20px;
-}
-
-.content a {
-    padding: 10px 30px;
-    background: #fff;
-    display: inline-block;
-    text-decoration: none;
-    color: #111;
-    border-radius: 50px;
-}
-
-/*Logo*/
 header .logo img {
-    width: 160px;
-    position: static;
-    top: 0px;
-    left: 0px;
-    margin: 0px;
-    padding: 0px;
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
+.logo img:hover {
+    transform: scale(1.1);
+}
 
-main{
+/* Padronizar deste ponto para cima*/
+
+
+
+
+main {
     display: flex;
 }
 
 /* INFORMAÇÕES  */
-.info-conteiner{
+.info-conteiner {
     padding: 50px;
 }
+
 .info-conteiner h1 {
     font-size: 30px;
 }
+
 .info-conteiner p {
     font-family: 'Roboto', 'Open Sans', sans-serif;
     font-size: 15px;
@@ -114,7 +92,7 @@ main{
 
 .show-page img {
     position: 10px;
-    margin-top: 252px;
+    margin-top: 120px;
     left: 0px;
     right: 0px;
     width: 100%;
@@ -141,14 +119,14 @@ main{
     font-size: 13px;
     align-items: center;
     text-align: justify;
-   
+
 }
 
 /*INGRESSO*/
 .ingresso-conteiner {
     display: flex;
-    flex-flow:row wrap;
- }
+    flex-flow: row wrap;
+}
 
 #esquerda {
     margin-top: 0px;
@@ -157,14 +135,14 @@ main{
 }
 
 
-#esquerda img{
-    height:100%;
-    margin-top:0%;
+#esquerda img {
+    height: 100%;
+    margin-top: 0%;
     padding: 0;
     width: 500px;
     max-width: 100%;
     margin-left: 160px;
-    
+
 }
 
 /*DIREITA*/
@@ -173,19 +151,21 @@ main{
     width: 50%;
 }
 
-#direita h1{
+#direita h1 {
     font-size: 26px;
     text-align: justify;
     padding: 0px;
 }
-#direita h2{
+
+#direita h2 {
     font-size: 20px;
     align-items: center;
     text-align: justify;
     padding: 0px;
     margin-bottom: 5px;
 }
-#direita h3{
+
+#direita h3 {
     font-size: 15px;
     align-items: center;
     text-align: justify;
@@ -194,7 +174,7 @@ main{
 }
 
 
-#direita p{
+#direita p {
     font-size: 12px;
     align-items: center;
     text-align: justify;
@@ -203,16 +183,22 @@ main{
     margin-right: 25px;
 }
 
-#direita button{
-    background:    #672550;
-    border:        1px solid #000000;
+#direita button {
+    background: #672550;
+    border: 1px solid #000000;
     border-radius: 6px;
-    padding:       17px 31px;
-    color:         #ffffff;
-    display:       inline-block;
-    font:          normal bold 16px/1  'Julius Sans One', sans-serif;
-    text-align:    center;
-    text-shadow:   3px 3px #000000;
+    padding: 17px 31px;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 16px/1 'Julius Sans One', sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px #000000;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#direita button:hover{
+    background-color: green;
 }
 
 
@@ -227,130 +213,130 @@ body h4 {
 
 /*Configurações Footer Contatos*/
 
-footer{
+footer {
     width: 100%;
     background: #202020;
-    color: white;   
+    color: white;
     margin-top: 80px;
-    
+
 }
 
-.container-footer-all{
+.container-footer-all {
     width: 100%;
     max-width: 1200px;
     margin: auto;
     padding: 40px;
 }
 
-.container-body{
+.container-body {
     display: flex;
     justify-content: space-between;
 }
 
-.colum1{
+.colum1 {
     max-width: 400px;
 }
 
-.colum1 h1{
+.colum1 h1 {
     font-size: 22px;
 }
 
-.colum1 p{
+.colum1 p {
     font-size: 14px;
     color: #C7C7C7;
     margin-top: 20px;
 }
 
-.colum2{
+.colum2 {
     max-width: 400px;
-    
+
 }
 
-.colum2 h1{
+.colum2 h1 {
     font-size: 22px;
 }
 
-.row{
+.row {
     margin-top: 20px;
     display: flex;
 }
 
-.row img{
+.row img {
     width: 36px;
     height: 36px;
 }
 
-.row label{
+.row label {
     margin-top: 10px;
     margin-left: 20px;
     color: #C7C7C7;
 }
 
-.colum3{
+.colum3 {
     max-width: 400px;
 }
 
-.colum3 h1{
+.colum3 h1 {
     font-size: 22px;
 }
 
-.row2{
+.row2 {
     margin-top: 20px;
     display: flex;
 }
 
-.row2 img{
+.row2 img {
     width: 36px;
     height: 36px;
 }
 
-.row2 label{
+.row2 label {
     margin-top: 10px;
     margin-left: 20px;
     max-width: 140px;
 }
 
-.container-footer{
-    width: 100%;  
+.container-footer {
+    width: 100%;
     background: #101010;
 }
 
-.footer{
+.footer {
     max-width: 1200px;
     margin: auto;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     padding: 20px;
 }
 
-.copyright{
+.copyright {
     color: #C7C7C7;
 }
 
-.copyright a{
+.copyright a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-.information a{
+.information a {
     text-decoration: none;
     color: #C7C7C7;
 }
 
 
-@media screen and (max-width: 1100px){
-    
-    .container-body{
+@media screen and (max-width: 1100px) {
+
+    .container-body {
         flex-wrap: wrap;
     }
-    
-    .colum1{
+
+    .colum1 {
         max-width: 100%;
     }
-    
+
     .colum2,
-    .colum3{
+    .colum3 {
         margin-top: 40px;
     }
 }

@@ -1,4 +1,5 @@
-/* Fonte externa importada do Google Fonts */
+/* Todos os componentes */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 *{
@@ -7,17 +8,12 @@
     box-sizing: border-box;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
-
-p{
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 /*Container Principal*/
 .sec {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
+    background: linear-gradient(#130A3D,#672550); 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,207 +90,71 @@ header .navigation li a {
 
 /*Ainda nao Definido*/
 header .logo img {
-    width: 100px;
+    width: 120px;
     position: absolute;
     top: 0;
     left: 0;
     margin: 10px;
 }
 
-.menu{
-    height: 80px;
-    background-color: rgb(196, 196, 196);
-    font-size: 60px;
+/*body e main */
+
+main{
+    display: flex;
+}
+
+.campo{
+    font-size: 28px;
     text-align: center;
-    padding: 20px;
-}
-
-.container{
-    display: flex;
-    justify-content:space-around;
-    padding: 50px 10px;
-}
-
-.resumoDaCompra{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    background-color: rgb(241, 238, 238);
-    padding: 20px;
-    position: relative;
-    right: 5%;
-    text-align: justify;
-    border:solid 2px;
-    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.596);
-}
-
-.resumoDaCompra h2, h3 {
-    text-align: center;
-
-}
-
-.formaDePagamento{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(241, 238, 238);
-    width: 50%;
-    padding: 20px;
-    position: relative;
-    left: 5%;
-    border:solid 2px;
-    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.596);
-}
-.howPay{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 10px;
-}
-
-.dataPay{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
+    width: 30%;
+    color: #fff;
     margin: auto;
-    padding: 10px;
-    background-color:rgb(192, 190, 190);
+}
+.texto{
+    margin-bottom: 55px;
 }
 
-.formaDePagamento h2,h4{
-    text-align: center;
-
-}
-
-.formaDePagamento h4 {
-    padding: 20px;
-}
-
-.formaDePagamento label, input {
-    display: flex;
-}
-
-
-form {
+.campo .formulario{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    text-align: center;
+}
+
+.login{
+    margin-bottom: 15px;
+}
+
+.caixa{
+    padding:5px;
+    border-radius: 8px;
+}
+
+.botao:hover{
+    background:#ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+.botao{
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 5px;
+    width: 10rem;
+    margin:auto;
+    margin-top: 25px;
+    margin-bottom:40px;
+    font-size: 20px;
+}
+
+/*Final do body*/
+
+body h4 {
+    margin-top: 15px;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-size: 13px;
     align-items: center;
-    width: 100%;
-    height: 250px;
-    margin: auto;
-    background-color: rgb(196, 196, 196);
-
-}
-
-form .infoCard{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-bottom: 5px;
-}
-
-form .secureCode{
-    width: 90px;
-  }
-
-form .cpfCard{
-    width: 50%;;
-
-}
-
-form .inline{
-    display: flex;
-    align-self: center;
-    width:100%;
-    gap: 10px;
-}
-
-form .inline2{
-    display: flex;
-    align-self: center;
-    width:90%;
-    gap: 10px;
-}
-
-form input {
-    width: 100%; 
-    block-size: 30px;
-    border-radius: 10px;
-    outline: none;
-    border: #ccc 1px solid;
-    font-size: 15px;
     text-align: center;
-    margin: 5px 0px;
 }
-
-form input:focus {
-    background-color: #ccc;
-    border-radius: 50px;
-}
-
-form label {
-    font-size: 15px;
-    font-weight: bold;
-}
-
-form #send {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;  
-    align-items:flex-end;
-    width: 50%;
-}
-
-form input[type=submit] {
-    width: 70%;
-    block-size: 40px;
-    background-color: white;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 14px;
-    padding: 10px;
-    cursor: pointer;
-    border:solid 2px;
-    
-}
-
-form select:hover {
-    background-color: #ccc;
-}
-
-.resumoDaCompra .descricaoValor{
-    display: flex;
-    color: hotpink;
-}
-
-#resumo{
-    width: 90%;
-    margin: auto;
-    
-}
-.totalLine{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.aceite p, input {
-    text-align: justify;
-    justify-content: center;
-}
-
-.aceite input {
-    position: relative;
-    left: 45%;
-    margin-top: 20px;
-    padding: 200px;
-    border-radius: 25px;
-    box-shadow: 5px 5px;
-    cursor: pointer;
-
-    min-width: 20px;
-    min-height: 20px;
-    margin-right: 5px;
-}
+/*footer*/
 
 /*Configurações Footer Contatos*/
 
@@ -424,3 +284,7 @@ footer{
         margin-top: 40px;
     }
 }
+
+
+
+
