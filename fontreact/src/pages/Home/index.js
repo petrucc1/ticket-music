@@ -17,22 +17,22 @@ export default function Home() {
     return (
         <div>
             <header>
-                <a href="../paginaHome/home.html" className="logo"><img src={logo} alt="logo" /></a>
+                <a href="http://localhost:3000" className="logo"><img src={logo} alt="logo" /></a>
                 <ul className="navigation">
-                    <li><a href="../paginaHome/home.html" tabindex="0">Início</a></li>
-                    <li><a href="../paginaCadastro/cadastro.html" tabindex="2">Login</a></li>
-                    <li><a href="../paginaCarrinho/carrinho.html" tabindex="4">Carrinho</a></li>
+                    <li><a href="http://localhost:3000" tabindex="0">Início</a></li>
+                    <li><a href="http://localhost:3000/cadastro" tabindex="2">Login</a></li>
+                    <li><a href="http://localhost:3000/carrinho" tabindex="4">Carrinho</a></li>
                 </ul>
             </header>
 
-            <section className="sec">
+            <section className="ban">
                 <h1> Os melhores shows e eventos você encontra na ticketmusic </h1>
             </section>
 
             <section className="shows">
                 <div className="section group">
                     <div className="col span_1_of_2">
-                        <a href="sad"><img src={show1} alt="Show1" /></a>
+                        <a href="http://localhost:3000/shows"><img src={show1} alt="Show1" /></a>
                         <a href="/frontEnd/paginaShows/02ShowPixote/02ShowPixote.html"> <img src={show2} alt="Show2" /></a>
                         <a href="/frontEnd/paginaShows/03ShowJustin/03ShowJustin.html"> <img src={show3} alt="Show3" /></a>
                     </div>

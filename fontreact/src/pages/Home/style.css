@@ -49,11 +49,12 @@ header .navigation li a {
     font-weight: bolder;
 }
 
-.sec{
+.ban{
     margin-top: 100px ;
     padding: 100px;
     color:#672550;
     text-align: center;
+    font-size: 30px;
 }
 
 .shows {
