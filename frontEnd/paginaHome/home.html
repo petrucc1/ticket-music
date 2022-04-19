@@ -12,8 +12,8 @@
 
 <body>
 
-<div>
-    <header>
+    <div>
+        <header>
             <a href="../paginaHome/home.html" class="logo"><img src="/frontEnd/images/logo.png"></a>
             <div class="toggleMenu" onclick="menuToggle();"></div>
             <ul class="navigation">
@@ -21,88 +21,99 @@
                 <li><a href="../paginaCadastro/cadastro.html" tabindex="2">Login</a></li>
                 <li><a href="../paginaCarrinho/carrinho.html" tabindex="4">Carrinho</a></li>
             </ul>
-    </header>
+        </header>
 
-    <section class="sec">
-        <h1> Os melhores shows e eventos você encontra na ticketmusic </h1>
-    </section>    
+        <section class="sec">
+            <h1> Os melhores shows e eventos você encontra na ticketmusic </h1>
+        </section>
 
-    <section class="shows">
-        <div class="section group">
-            <div class="col span_1_of_2">
-            <a href="/frontEnd/paginaShows/01showSepultura/01showSepultura.html"> <img src="/frontEnd/images/show1.jpg"></a>   
-            <a href="/frontEnd/paginaShows/02ShowPixote/02ShowPixote.html"> <img src="/frontEnd/images/show2.jpg"></a>  
-            <a href="/frontEnd/paginaShows/03ShowJustin/03ShowJustin.html"> <img src="/frontEnd/images/show3.jpg"></a>  
-            </div>
-            <div class="col span_1_of_2">
-            <a href="/frontEnd/paginaShows/04ShowAnitta/04ShowAnitta.html"> <img src="/frontEnd/images/show4.jpg"></a>  
-            <a href="/frontEnd/paginaShows/05ShowLudmilla/05ShowLudmilla.html"> <img src="/frontEnd/images/show5.jpg"></a>  
-            <a href="/frontEnd/paginaShows/06ShowPatatiPatata/06ShowPatatiPatata.html"> <img src="/frontEnd/images/show6.jpg"></a>  
-            </div>
-        </div>
-    </section>
-  
-    
+        <section class="shows">
+            <div class="section_group">
+                <div class="col_span_1_of_2">
+                    <a href="/frontEnd/paginaShows/01showSepultura/01showSepultura.html"> <img
+                            src="/frontEnd/images/show1.jpg" alt="Sepultura"></a>
 
-    <!-- Script dos botoes de menu quando site fica menor -->
-    <script type="text/javascript">
-        function menuToggle() {
-            const toggleMenu = document.querySelector('.toggleMenu')
-            const navigation = document.querySelector('.navigation')
-            toggleMenu.classList.toggle('active')
-            navigation.classList.toggle('active')
-        }
-    </script>
+                    <a href="/frontEnd/paginaShows/02ShowPixote/02ShowPixote.html"> <img
+                            src="/frontEnd/images/show2.jpg" alt="Pixote"></a>
 
-    <footer>
-        <div class="container-footer-all">
-            <div class="container-body">
-                <div class="colum1">
-                    <h1>Mais Informações</h1>
+                    <a href="/frontEnd/paginaShows/03ShowJustin/03ShowJustin.html"> <img
+                            src="/frontEnd/images/show3.jpg" alt="Justin Bieber"></a>
 
-                    <p>
-                        Todos os preços e condições comerciais estão sujeitos a alteração comercial sem prévio aviso. <br /> Tickect music Eventos Culturais Ltda - CNPJ 10.000.000/0001-00 Rua Fernão Dias , 130 - Cj 5 - CEP: 00110-030 - São Paulo - SP.
-                    </p>
+                    <a href="/frontEnd/paginaShows/04ShowAnitta/04ShowAnitta.html"> <img
+                            src="/frontEnd/images/show4.jpg" alt="Anitta"></a>
+
+                    <a href="/frontEnd/paginaShows/05ShowLudmilla/05ShowLudmilla.html"> <img
+                            src="/frontEnd/images/show5.jpg" alt="Ludmilla"></a>
+
+                    <a href="/frontEnd/paginaShows/06ShowPatatiPatata/06ShowPatatiPatata.html"> <img
+                            src="/frontEnd/images/show6.jpg" alt="PatatiPatata"></a>
                 </div>
+            </div>
+        </section>
 
-                <div class="colum2">
-                    <h1>Redes Sociais</h1>
 
-                    <div class="row">
-                        <img src="/frontEnd/images/facebook.png" />
-                        <label>Nos Siga no Facebook</label>
+
+        <!-- Script dos botoes de menu quando site fica menor -->
+        <script type="text/javascript">
+            function menuToggle() {
+                const toggleMenu = document.querySelector('.toggleMenu')
+                const navigation = document.querySelector('.navigation')
+                toggleMenu.classList.toggle('active')
+                navigation.classList.toggle('active')
+            }
+        </script>
+
+        <footer>
+            <div class="container-footer-all">
+                <div class="container-body">
+                    <div class="colum1">
+                        <h1>Mais Informações</h1>
+
+                        <p>
+                            Todos os preços e condições comerciais estão sujeitos a alteração comercial sem prévio
+                            aviso. <br /> Tickect music Eventos Culturais Ltda - CNPJ 10.000.000/0001-00 Rua Fernão Dias
+                            , 130 - Cj 5 - CEP: 00110-030 - São Paulo - SP.
+                        </p>
                     </div>
-                    <div class="row">
-                        <img src="/frontEnd/images/twitter.png" />
-                        <label>Nos Siga no Twitter</label>
-                    </div>
-                    <div class="row">
-                        <img src="/frontEnd/images/insta.png" />
-                        <label>Nos Siga no Instagram</label>
-                    </div>
-                </div>
 
-                <div class="colum3">
-                    <h1>Contatos</h1>
+                    <div class="colum2">
+                        <h1>Redes Sociais</h1>
+
+                        <div class="row">
+                            <img src="/frontEnd/images/facebook.png" />
+                            <label>Nos Siga no Facebook</label>
+                        </div>
+                        <div class="row">
+                            <img src="/frontEnd/images/twitter.png" />
+                            <label>Nos Siga no Twitter</label>
+                        </div>
+                        <div class="row">
+                            <img src="/frontEnd/images/insta.png" />
+                            <label>Nos Siga no Instagram</label>
+                        </div>
+                    </div>
+
+                    <div class="colum3">
+                        <h1>Contatos</h1>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container-footer">
-            <div class="footer">
-                <div class="copyright">
-                    © 2021 Ticket Music - Todos os Direitos Reservados
-                </div>
+            <div class="container-footer">
+                <div class="footer">
+                    <div class="copyright">
+                        © 2021 Ticket Music - Todos os Direitos Reservados
+                    </div>
 
-                <div class="information">
-                    <a href="">Informações Da Compania</a> |
-                    <a href="">Privacidades e Politicas</a> |
-                    <a href="">Termos e Condições</a>
+                    <div class="information">
+                        <a href="">Informações Da Compania</a> |
+                        <a href="">Privacidades e Politicas</a> |
+                        <a href="">Termos e Condições</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-</div>    
+        </footer>
+    </div>
 </body>
 
 </html>
