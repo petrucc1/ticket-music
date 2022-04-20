@@ -31,12 +31,10 @@ export default function Home() {
 
             <section className="shows">
                 <div className="section group">
-                    <div className="col span_1_of_2">
+                    <div className="col_span_1_of_2">
                         <a href="http://localhost:3000/shows"><img src={show1} alt="Show1" /></a>
                         <a href="/frontEnd/paginaShows/02ShowPixote/02ShowPixote.html"> <img src={show2} alt="Show2" /></a>
                         <a href="/frontEnd/paginaShows/03ShowJustin/03ShowJustin.html"> <img src={show3} alt="Show3" /></a>
-                    </div>
-                    <div className="col span_1_of_2">
                         <a href="/frontEnd/paginaShows/04ShowAnitta/04ShowAnitta.html"> <img src={show4} alt="Show4" /></a>
                         <a href="/frontEnd/paginaShows/05ShowLudmilla/05ShowLudmilla.html"> <img src={show5} alt="Show5" /></a>
                         <a href="/frontEnd/paginaShows/06ShowPatatiPatata/06ShowPatatiPatata.html"> <img src={show6} alt="Show6" /></a>
