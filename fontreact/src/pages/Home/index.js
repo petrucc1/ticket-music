@@ -26,7 +26,7 @@ export default function Home() {
             </header>
 
             <section className="ban">
-                <h1> Os melhores shows e eventos você encontra na ticketmusic </h1>
+                <h1> Os melhores shows e eventos você encontra na Ticketmusic </h1>
             </section>
 
             <section className="shows">

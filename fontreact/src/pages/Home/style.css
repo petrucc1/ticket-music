@@ -49,15 +49,7 @@ header .navigation li a {
     font-weight: bolder;
 }
 
-<<<<<<< HEAD
 .ban{
-=======
-header .navigation li:hover {
-    transform: scale(1.5);
-}
-
-.sec{
->>>>>>> baf82e40b09871fcd81aeb1f7f336c10b4a66c8a
     margin-top: 100px ;
     padding: 30px;
     color:#672550;
@@ -66,6 +58,7 @@ header .navigation li:hover {
 }
 
 .shows {
+    margin-left: 200px;
     display: inline-block;
     align-items: center;
     justify-content: center;
@@ -144,7 +137,7 @@ table{
         position: relative;
         width: 30px;
         height: 30px;
-        background: url(images/menu.png);
+        background: url(../../assets/images/menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
@@ -156,7 +149,7 @@ table{
         position: fixed;
         right: 40px;
         top: 20px;
-        background: url(images/close.png);
+        background: url(../../assets/images/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
