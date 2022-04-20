@@ -14,11 +14,11 @@ export default function Carrinho() {
             <section className="sec">
 
                 <header>
-                    <a href="../paginaHome/home.html" className="logo"><img src={logo} alt="logo" /></a>
+                    <a href="http://localhost:3000" className="logo"><img src={logo} alt="logo" /></a>
                     <ul className="navigation">
-                        <li><a href="../paginaHome/home.html" tabindex="0">Início</a></li>
-                        <li><a href="../paginaCadastro/cadastro.html" tabindex="2">Login</a></li>
-                        <li><a href="../paginaCarrinho/carrinho.html" tabindex="4">Carrinho</a></li>
+                        <li><a href="http://localhost:3000" tabindex="0">Início</a></li>
+                        <li><a href="http://localhost:3000/cadastro" tabindex="2">Login</a></li>
+                        <li><a href="http://localhost:3000/carrinho" tabindex="4">Carrinho</a></li>
                     </ul>
                 </header>
 
@@ -31,15 +31,15 @@ export default function Carrinho() {
                             <h3>Nome do Evento</h3><br />
                             <hr color="black" size="3" />
                             <table id="resumo">
-                                <tr>
-                                    <td>N50</td>
-                                    <td>Meia entrada</td>
-                                    <td>R$ 50,00</td>
+                                <tr className="itemOne">
+                                    <td className="ticketNumber">N50</td>
+                                    <td className="ticketType">Meia entrada</td>
+                                    <td className="itemValue">R$ 50,00</td>
                                 </tr>
-                                <tr>
-                                    <td>N51</td>
-                                    <td>Inteira</td>
-                                    <td>R$ 100,00</td>
+                                <tr className="itemTwo">
+                                    <td className="ticketNumber">N51</td>
+                                    <td className="ticketType">Inteira</td>
+                                    <td className="itemValue">R$ 100,00</td>
                                 </tr>
                             </table>
                             <hr color="black" size="3" /><br />
@@ -52,20 +52,11 @@ export default function Carrinho() {
                             <h2>Forma de Pagamento</h2><br />
                             <h3>Escolha a forma de pagamento desejada:</h3><br />
                             <div className="howPay">
-                                <div>
                                     <input type="radio" id="PIX" name="howPay" value="Pix"></input> <label for="Pix">Pix</label>
-                                </div>
-
-                                <div>
                                     <input type="radio" id="Cartão de Crédito" name="howPay" value="Cartão de Crédito" checked />
                                     <label for="Cartão de Crédito">Cartão de Crédito</label>
-                                </div>
-
-                                <div>
                                     <input type="radio" id="Boleto" name="howPay" value="Boleto" />
                                     <label for="Boleto">Boleto</label>
-                                </div>
-
                             </div>
 
                             <div className="dataPay">
@@ -113,14 +104,6 @@ export default function Carrinho() {
                             </div>
                         </section>
                     </div>
-                    <div id="aceite"> </div>
-                    <div className="aceite">
-                        <input type="checkbox" name="aceite" value="aceite" checked/> <label for="aceite"> Eu li e concordo com os
-                            Termos de
-                            Uso. Todas as compras estão sujeitas a aprovação. Em caso de dúvidas acesse nossa central de
-                            ajuda.</label>
-                    </div>
-
                 </main>
             </section>
             <footer>

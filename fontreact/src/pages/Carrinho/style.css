@@ -10,10 +10,10 @@
 
 /*Container Principal*/
 .sec {
-    position: relative;
+    position: static;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(#130A3D,#672550); /*Verificar qual cor vamos usar*/
+    background: linear-gradient(#130A3D, #672550);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,7 +107,7 @@ header .logo img {
 
 .container{
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     padding: 50px 10px;
 }
 
@@ -142,6 +142,8 @@ header .logo img {
 }
 .howPay{
     display: flex;
+    position: relative;
+    right: 40px;
     justify-content: space-around;
     margin-bottom: 10px;
 }
@@ -207,8 +209,10 @@ form .inline{
 
 form .inline2{
     display: flex;
+    position: relative;
     align-self: center;
-    width:90%;
+    text-align: center;
+    width: 90%;
     gap: 10px;
 }
 
@@ -236,9 +240,10 @@ form label {
 form #send {
     display: flex;
     flex-direction: row;
-    justify-content: end;  
+    justify-content: end;
     align-items:flex-end;
     width: 50%;
+    text-align: end;
 }
 
 form input[type=submit] {
@@ -266,30 +271,26 @@ form select:hover {
 #resumo{
     width: 90%;
     margin: auto;
-    
 }
+
+.ticketNumber {
+    display: flex;
+    position: relative;
+    right: 150px;
+}
+
+.ticketType, .itemValue {
+    display: flex;
+    position: relative;
+    left: 40px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
 .totalLine{
     width: 100%;
     display: flex;
     justify-content: space-between;
-}
-.aceite p, input {
-    text-align: justify;
-    justify-content: center;
-}
-
-.aceite input {
-    position: relative;
-    left: 45%;
-    margin-top: 20px;
-    padding: 200px;
-    border-radius: 25px;
-    box-shadow: 5px 5px;
-    cursor: pointer;
-
-    min-width: 20px;
-    min-height: 20px;
-    margin-right: 5px;
 }
 
 /*Configurações Footer Contatos*/
@@ -310,7 +311,7 @@ footer{
 
 .container-body{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .colum1{
