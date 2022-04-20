@@ -11,7 +11,7 @@ export default function Carrinho() {
     // retorna o html
     return (
         <div>
-            <section class="sec">
+            <section className="sec">
 
                 <header>
                     <a href="../paginaHome/home.html" className="logo"><img src={logo} alt="logo" /></a>
@@ -25,8 +25,8 @@ export default function Carrinho() {
 
 
                 <main>
-                    <div class="container">
-                        <section class="resumoDaCompra">
+                    <div className="container">
+                        <section className="resumoDaCompra">
                             <h2>Resumo da compra</h2><br />
                             <h3>Nome do Evento</h3><br />
                             <hr color="black" size="3" />
@@ -43,15 +43,15 @@ export default function Carrinho() {
                                 </tr>
                             </table>
                             <hr color="black" size="3" /><br />
-                            <div class="totalLine">
+                            <div className="totalLine">
                                 <h2>Total</h2>
                                 <h2>R$ 150,00</h2>
                             </div>
                         </section>
-                        <section class="formaDePagamento">
+                        <section className="formaDePagamento">
                             <h2>Forma de Pagamento</h2><br />
                             <h3>Escolha a forma de pagamento desejada:</h3><br />
-                            <div class="howPay">
+                            <div className="howPay">
                                 <div>
                                     <input type="radio" id="PIX" name="howPay" value="Pix"></input> <label for="Pix">Pix</label>
                                 </div>
@@ -68,38 +68,38 @@ export default function Carrinho() {
 
                             </div>
 
-                            <div class="dataPay">
+                            <div className="dataPay">
                                 <h4> Entre com os dados do seu cartão de crédito: </h4>
                                 <form>
-                                    <div class="infoCard">
+                                    <div className="infoCard">
                                         <label> Número do Cartão de Crédito:</label>
-                                        <div class="inline">
+                                        <div className="inline">
                                             <input type="text" name="number" id="numeberCard" placeholder="XXXX" />
                                             <input type="text" name="number" id="numeberCard" placeholder="XXXX" />
                                             <input type="text" name="number" id="numeberCard" placeholder="XXXX" />
                                             <input type="text" name="number" id="numeberCard" placeholder="XXXX" />
                                         </div>
                                     </div>
-                                    <div class="infoCard">
+                                    <div className="infoCard">
                                         <label> Nome do titular do cartão:</label>
                                         <input type="text" name="name" id="nameCard" placeholder="Nome completo" />
                                     </div>
-                                    <div class="inline2">
-                                        <div class="infoCard">
+                                    <div className="inline2">
+                                        <div className="infoCard">
                                             <label> Validade do Cartão:</label>
-                                            <div class="secureCode">
+                                            <div className="secureCode">
                                                 <input type="text" name="expiry" id="expireCard" placeholder="MM/AAAA" />
                                             </div>
                                         </div>
-                                        <div class="infoCard">
+                                        <div className="infoCard">
                                             <label> Código de Segurança:</label>
                                             <div class="secureCode">
                                                 <input type="text" name="cvv" id="cvvCard" placeholder="CVV" />
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="inline2">
-                                        <div class="cpfCard">
+                                    <div className="inline2">
+                                        <div className="cpfCard">
                                             <label> CPF do Titular do Cartão:</label>
                                             <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00" />
                                         </div>
@@ -114,7 +114,7 @@ export default function Carrinho() {
                         </section>
                     </div>
                     <div id="aceite"> </div>
-                    <div class="aceite">
+                    <div className="aceite">
                         <input type="checkbox" name="aceite" value="aceite" checked/> <label for="aceite"> Eu li e concordo com os
                             Termos de
                             Uso. Todas as compras estão sujeitas a aprovação. Em caso de dúvidas acesse nossa central de

@@ -1,30 +1,15 @@
 /* Fonte externa importada do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 
-p {
-    font-family: 'Roboto', 'Open Sans', sans-serif;
-    color: white;
-}
-
-
 /*Container Principal*/
-.sec {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(#130A3D, #672550);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px;
-}
+
 
 header {
     position: fixed;
@@ -36,6 +21,7 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+    background: linear-gradient(#130A3D, #672550);
 }
 
 header .logo {
@@ -67,134 +53,162 @@ header .navigation li:hover {
     transform: scale(1.5);
 }
 
-.content {
-    position: relative;
-    max-width: 600px;
-    z-index: 1;
-}
-
-.content h2 {
-    color: #fff;
-    font-size: 3em;
-    line-height: 1em;
-}
-
-.content h2 span {
-    color: #fff;
-    font-size: 0.7em;
-}
-
-.content p {
-    color: #fff;
-    margin: 10px 0 20px;
-}
-
-.content a {
-    padding: 10px 30px;
-    background: #fff;
-    display: inline-block;
-    text-decoration: none;
-    color: #111;
-    border-radius: 50px;
-}
-
 header .logo img {
     width: 120px;
     position: absolute;
     top: 0;
     left: 0;
-    margin: 10px;
 }
 
-img:hover {
-	transform: scale(1.1);
+.logo img:hover {
+    transform: scale(1.1);
 }
 
-/*body e main */
+/* Padronizar deste ponto para cima*/
+
+
+
 
 main {
     display: flex;
 }
 
+/* INFORMAÇÕES  */
+.info-conteiner {
+    padding: 50px;
+}
 
-.campo {
-    font-size: 24px;
-    text-align: center;
-    width: 30%;
-    height: 90%;
-    display: flex;
-    flex-direction: column;
+.info-conteiner h1 {
+    font-size: 30px;
+}
+
+.info-conteiner p {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+
+/*BANNER EVENTO */
+
+.show-page img {
+    position: 10px;
+    margin-top: 120px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+
+}
+
+/* DESCRIÇÕES */
+.descricao-conteiner {
+
+    margin-top: 0px;
     align-items: center;
-    justify-content: center;
-    margin: auto;
-    color: #fff;
-    border: 3px solid #ccc;
-    box-shadow: #202020;
-    border-radius: 5px;
-    box-sizing: border-box;
+    padding: 50px;
 }
 
-.campo input {
-    width: 240px;
+
+/*INGRESSO*/
+.descricao-conteiner {
+    padding: 15PX;
+    margin-top: 5px;
+    align-items: center;
 }
 
-.texto {
-    margin-bottom: 55px;
-    padding: 5px;
+.descricao-conteiner p {
+    font-size: 13px;
+    align-items: center;
+    text-align: justify;
+
 }
 
-.campo .formulario {
+/*INGRESSO*/
+.ingresso-conteiner {
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    flex-flow: row wrap;
+}
+
+#esquerda {
+    margin-top: 0px;
+    width: 50%;
+    height: 100%;
 }
 
 
-.login {
-    margin-bottom: 15px;
+#esquerda img {
+    height: 100%;
+    margin-top: 0%;
+    padding: 0;
+    width: 500px;
+    max-width: 100%;
+    margin-left: 160px;
+
 }
 
-.caixa {
-    padding: 5px;
-    border-radius: 8px;
-    font-family: Arial, Helvetica, sans-serif;
+/*DIREITA*/
+
+#direita {
+    width: 50%;
 }
 
-.botao:hover {
-    background: #ccbbff;
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
-    text-shadow: none;
+#direita h1 {
+    font-size: 26px;
+    text-align: justify;
+    padding: 0px;
 }
 
-.botao {
-    cursor: pointer;
-    border-radius: 0.5rem;
-    padding: 5px;
-    width: 10rem;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 40px;
+#direita h2 {
     font-size: 20px;
-    font-weight: bolder;
+    align-items: center;
+    text-align: justify;
+    padding: 0px;
+    margin-bottom: 5px;
 }
 
-.linha {
-    margin-top: 30px;
+#direita h3 {
+    font-size: 15px;
+    align-items: center;
+    text-align: justify;
+    padding: 0px;
+    margin-bottom: 5px;
 }
+
+
+#direita p {
+    font-size: 12px;
+    align-items: center;
+    text-align: justify;
+    padding: 0px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+#direita button {
+    background: #672550;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 17px 31px;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 3px 3px #000000;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#direita button:hover{
+    background-color: green;
+}
+
 
 /*Final do body*/
 
 body h4 {
     margin-top: 15px;
-    font-family: 'Julius Sans One', sans-serif;
     font-size: 13px;
-    padding-top: 30px;
     align-items: center;
     text-align: center;
-    color: white;
 }
-
-/*footer*/
 
 /*Configurações Footer Contatos*/
 
@@ -202,6 +216,7 @@ footer {
     width: 100%;
     background: #202020;
     color: white;
+    margin-top: 80px;
 
 }
 
