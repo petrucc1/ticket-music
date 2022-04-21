@@ -6,11 +6,16 @@ import insta from "../../assets/images/insta.png"
 import palco from "../../assets/images/palco.png"
 import showsepultura from "../../assets/images/showsepultura.jpg"
 
-
+import {useNavigate} from 'react-router-dom'
 
 export default function Shows() {
     //demais coisas de JS aqui
-
+    const navigate = useNavigate()
+    function comprar () {
+        navigate('/carrinho', {
+            nomeDoShow:'Sepultura'
+        })
+    }
     // retorna o html
     return (
         <div>
@@ -58,7 +63,7 @@ export default function Shows() {
                                     <h2>Pista</h2>
                                     <h2> R$ 200,00</h2>
                                     <br />
-                                    <button onclick="window.location.href='/frontEnd/paginaCarrinho/carrinho.html'"> Comprar ! </button>
+                                    <button onClick={()=>comprar()}  > Comprar ! </button>
                                 </div>
                                 <br />
                                 <br />

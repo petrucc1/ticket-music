@@ -247,7 +247,7 @@ p {
     margin-top: 14vh
 }
 
-button {
+.buttonComprar  {
     color: #FFFFFF;
     background-color: #130A3D;
     border-radius: 5px;

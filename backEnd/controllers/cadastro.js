@@ -1,11 +1,12 @@
-const usuario = require('../models/usuario')
+const usuario = require('../models/cadastro')
 
 async function create(req, res) {
   try {
     const respostaCreateCadastro = await usuario.create(req.body)
     return res.json(respostaCreateCadastro)
   } catch (error) {
-    return res.json({ message: error.message })
+    console.log(error.message)
+    return res.status(500)
   }
 }
 

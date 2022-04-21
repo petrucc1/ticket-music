@@ -2,11 +2,12 @@
 
 module.exports = {
     up: async (queryInterface, Sequelize) => {
-        return queryInterface.createTable("compra", {
+        return queryInterface.createTable("compras", {
             cod_compra: {
                 type: Sequelize.INTEGER,
                 allowNull: false,
-                primaryKey: true
+                primaryKey: true,
+                autoIncrement: true,
             },
             id_evento: {
                 type: Sequelize.INTEGER,
@@ -30,6 +31,6 @@ module.exports = {
     },
 
     down: async (queryInterface) => {
-        return queryInterface.dropTable("compra");
+        return queryInterface.dropTable("compras");
     },
 };

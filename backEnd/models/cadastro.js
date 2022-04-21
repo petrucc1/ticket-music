@@ -5,9 +5,10 @@ const database = require("../database/index")
 
 const cadastro = database.define('cadastro', {
     id_user:{
-        type:sequelize.INTEGER,
+        type:Sequelize.INTEGER,
         allownull:false,
-        primaryKey:true
+        primaryKey:true,
+        autoIncrement: true
     }, 
     CPF: {
         type: Sequelize.STRING,

@@ -3,11 +3,38 @@ import logo from "../../assets/images/logo.png"
 import facebook from "../../assets/images/facebook.png"
 import twitter from "../../assets/images/twitter.png"
 import insta from "../../assets/images/insta.png"
+import {useState} from 'react'
+import axios from 'axios'
+import {useNavigate} from 'react-router-dom'
 
 
 export default function Cadastro() {
   //demais coisas de JS aqui
+  const navigate = useNavigate()
+ 
+  const [nome, setNome] = useState('')
+  const [email, setEmail] = useState('')
+  const [senha, setSenha] = useState ('')  
+  const [cpf, setCpf] = useState('')
 
+  function cadastrar(){
+    axios.post('http://localhost:3001/cadastro', {
+      nome:nome,
+      email:email,
+      senha: senha,
+      CPF:cpf,
+      telefone:'11-2508-1932'
+    })
+    .then((res)=>{
+      console.log(res)
+      navigate('/carrinho')
+
+    })
+    .catch(err=>{
+      alert('houve um problema ao cadastrar o usuário')
+      console.log(err)
+    })
+  }
   // retorna o html
   return (
     <div>
@@ -34,7 +61,7 @@ export default function Cadastro() {
             <fieldset>
               <div class="third-container">
                 <h1 class="first-title">Criar conta</h1>
-                <input type="text" id="name" name="name" placeholder="Nome completo" required />
+                <input type="text" value={nome} onChange={e=>setNome(e.target.value)} placeholder="Nome completo" required />
               </div>
               <hr />
 
@@ -54,7 +81,7 @@ export default function Cadastro() {
             </fieldset>
           </form>
 
-          <button>Continuar</button>
+          <button onClick={()=> cadastrar()} class="buttonComprar">Continuar</button>
 
           <h3 class="second-title">
             Já tem uma conta? <a href="http://localhost:3000/login">Faça login</a>
