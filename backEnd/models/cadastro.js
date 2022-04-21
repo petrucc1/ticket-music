@@ -1,3 +1,4 @@
+//teste
 const sequelize = require("sequelize")
 const { FLOAT } = require("sequelize")
 const Sequelize = require("sequelize")
