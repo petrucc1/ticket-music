@@ -66,16 +66,16 @@ export default function Cadastro() {
               <hr />
 
               <div>
-                <input type="email" id="email" name="email" placeholder="E-mail" required />
+                <input type="email" value={email} onChange={e=>setEmail(e.target.value)} placeholder="E-mail" required />
               </div>
               <hr />
 
               <div>
-                <input type="password" id="password" name="password" placeholder="Senha" required />
+                <input type="password" value={senha} onChange={e=>setSenha(e.target.value)} placeholder="Senha" required />
               </div>
               <hr />
               <div>
-                <input oninput="mascara(this)" id="cpf" name="cpf" type="text" placeholder="CPF" required />
+                <input oninput="mascara(this)" value={cpf} onChange={e=>setCpf(e.target.value)} placeholder="CPF" required />
               </div>
               <hr />
             </fieldset>

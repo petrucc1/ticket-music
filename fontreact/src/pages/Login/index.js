@@ -13,11 +13,11 @@ export default function Login() {
     return (
         <div>
             <header>
-                <a href="../paginaHome/home.html" className="logo"><img src={logo} alt="logo" /></a>
+                <a href="http://localhost:3000" className="logo"><img src={logo} alt="logo" /></a>
                 <ul className="navigation">
-                    <li><a href="../paginaHome/home.html" tabindex="0">Início</a></li>
-                    <li><a href="../paginaCadastro/cadastro.html" tabindex="2">Login</a></li>
-                    <li><a href="../paginaCarrinho/carrinho.html" tabindex="4">Carrinho</a></li>
+                    <li><a href="http://localhost:3000" tabindex="0">Início</a></li>
+                    <li><a href="http://localhost:3000/cadastro" tabindex="2">Login</a></li>
+                    <li><a href="http://localhost:3000/carrinho" tabindex="4">Carrinho</a></li>
                 </ul>
             </header>
             <div>
