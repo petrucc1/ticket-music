@@ -117,8 +117,7 @@ main {
 
 .descricao-conteiner p {
     font-size: 13px;
-    align-items: center;
-    text-align: justify;
+   text-align: justify;
 
 }
 
@@ -126,6 +125,7 @@ main {
 .ingresso-conteiner {
     display: flex;
     flex-flow: row wrap;
+
 }
 
 #esquerda {

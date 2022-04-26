@@ -43,8 +43,7 @@ export default function Shows() {
                     <hr/>
                     <div class="descricao-conteiner">
                         <h2>Descrição de evento </h2>
-                        <p>Andreas Kisser, Derrick Green, Paulo Xisto Jr. e Eloy Casagrande. Foto de Marcos Hermes. <br />
-                            O Sepultura se prepara para fazer o retorno aos palcos depois de mais de dois anos longe do público. Esse momento se torna ainda mais especial por se tratar do show de lançamento do álbum Quadra, que a banda foi impedida de fazer turnê por conta da pandemia do novo coronavírus. A apresentação está marcada para o dia 21 de Outubro, na Audio, em São Paulo. Os ingressos já estão à venda.
+                        <p> O Sepultura se prepara para fazer o retorno aos palcos depois de mais de dois anos longe do público. Esse momento se torna ainda mais especial por se tratar do show de lançamento do álbum Quadra, que a banda foi impedida de fazer turnê por conta da pandemia do novo coronavírus. A apresentação está marcada para o dia 21 de Outubro, na Audio, em São Paulo. Os ingressos já estão à venda.
                             O Sepultura havia acabado de lançar Quadra, seu 15º álbum de estúdio, quando a crise sanitária forçou público e músicos a ficarem distantes. "Estamos ansiosos para retornar e encontrar com os fãs", comenta Andreas Kisser, que compõe a banda junto de Paulo Xisto Jr. (baixo), Derrick Green (vocal) e Eloy Casagrande (bateria).
                             Para esse novo momento, além de faixas do Quadra, como "Ali", "Guardians of Earth" e "Fear; Pain; Chaos; Suffering", o Sepultura reserva surpresas para quem estiver na plateia. "Vamos tocar também músicas mais antigas que fazem parte da nossa carreira", comenta Andreas Kisser. </p>
                     </div>

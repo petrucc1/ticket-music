@@ -3,16 +3,19 @@ import logo from "../../assets/images/logo.png"
 import facebook from "../../assets/images/facebook.png"
 import twitter from "../../assets/images/twitter.png"
 import insta from "../../assets/images/insta.png"
-import show1 from "../../assets/images/show1.jpg"
-import show2 from "../../assets/images/show2.jpg"
-import show3 from "../../assets/images/show3.jpg"
-import show4 from "../../assets/images/show4.jpg"
-import show5 from "../../assets/images/show5.jpg"
-import show6 from "../../assets/images/show6.jpg"
+import palco from "../../assets/images/palco.png"
+import showjustin from "../../assets/images/showjustin.jpg"
 
-export default function Home() {
+import { useNavigate } from 'react-router-dom'
+
+export default function Shows() {
     //demais coisas de JS aqui
-
+    const navigate = useNavigate()
+    function comprar() {
+        navigate('/carrinho', {
+            nomeDoShow: 'Pixote'
+        })
+    }
     // retorna o html
     return (
         <div>
@@ -25,23 +28,53 @@ export default function Home() {
                 </ul>
             </header>
 
-            <section className="ban">
-                <h1> Os melhores shows e eventos você encontra na Ticketmusic </h1>
-            </section>
+            <main>
 
-            <section className="shows">
-                <div className="section group">
-                    <div className="col_span_1_of_2">
-                        <a href="http://localhost:3000/shows1"><img src={show1} alt="Show1" /></a>
-                        <a href="http://localhost:3000/shows2"> <img src={show2} alt="Show2" /></a>
-                        <a href="http://localhost:3000/shows3"> <img src={show3} alt="Show3" /></a>
-                        <a href="http://localhost:3000/shows4"> <img src={show4} alt="Show4" /></a>
-                        <a href="http://localhost:3000/shows5"> <img src={show5} alt="Show5" /></a>
-                        <a href="http://localhost:3000/shows6"> <img src={show6} alt="Show6" /></a>
+                <section class="show-page">
+
+                    <img src={showjustin} class="show-event" alt="Banner pixote" />
+
+                    <div class="info-conteiner">
+                        <h1>Justin Bieber - Justice World Tour </h1><br />
+                        <p>21 de outubro de 2023, 20:00</p>
+                        <p>Arena Ticket Music - São Paulo, SP</p>
                     </div>
-                </div>
-            </section>
 
+                    <hr />
+                    <div class="descricao-conteiner">
+                        <h2>Descrição de evento </h2>
+                        <p>Justin Bieber anunciou as datas da “Justice World Tour” na América do Sul. O único show confirmado no Brasil é o da Ticket Music.
+               A turnê foi originalmente idealizada por Justin Bieber para divulgar o álbum Changes, em 2020, mas precisou ser adiada devido a pandemia da Covid-19.
+               Desde então, o cantor canadense alterou todo o seu cronograma e lançou, em março, o álbum Justice. Em outubro, o artista lançou a versão estendida do disco com três músicas inéditas. </p>
+                    </div>
+
+                    <div class="ingresso-conteiner">
+
+                        <div id="esquerda">
+                            <img src={palco} alt="palco" />
+                        </div>
+
+                        <div id='direita'>
+                            <div class="Plateia">
+                                <h1>Ingressos</h1>
+                                <br />
+                                <div class="plateia1">
+                                    <h2>Pista</h2>
+                                    <h2> R$ 550,00</h2>
+                                    <br />
+                                    <button onClick={() => comprar()}  > Comprar ! </button>
+                                </div>
+                                <br />
+                                <br />
+                                <p>Em atendimento ao Decreto nº 60.488, de 27 de agosto de 2021, para acesso ao local do evento é obrigatório a apresentação do comprovante de vacinação contra COVID-19, com no mínimo as 2 (Duas) doses.
+                                    O comprovante pode ser físico ou digital (disponível nos aplicativos Conecte SUS, Poupatempo Digital e E-saudeSP).
+                                    Todas as demais exigências do protocolo vigente serão rigorosamente atendidas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
             <footer>
                 <div className="container-footer-all">
                     <div className="container-body">
@@ -91,7 +124,5 @@ export default function Home() {
                 </div>
             </footer>
         </div>
-
-
     )
 }
