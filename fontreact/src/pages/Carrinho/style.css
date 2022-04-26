@@ -237,11 +237,11 @@ form label {
     font-weight: bold;
 }
 
-form #send {
+div #send {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items:flex-end;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
     width: 50%;
     text-align: end;
 }
@@ -254,9 +254,8 @@ form input[type=submit] {
     font-weight: bolder;
     font-size: 14px;
     padding: 10px;
+    padding-left: 32px;
     cursor: pointer;
-    border:solid 2px;
-    
 }
 
 form select:hover {

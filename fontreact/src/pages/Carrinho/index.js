@@ -98,7 +98,6 @@ export default function Carrinho() {
                                             <input id="bt" type="submit" value="Finalizar compra" />
                                         </div>
                                     </div>
-
                                 </form>
                                 <br/>
                             </div>
